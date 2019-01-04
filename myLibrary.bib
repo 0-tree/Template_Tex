@@ -1,0 +1,2039 @@
+
+@article{belkin_understand_2018,
+	title = {To understand deep learning we need to understand kernel learning},
+	url = {http://arxiv.org/abs/1802.01396},
+	abstract = {Generalization performance of classifiers in deep learning has recently become a subject of intense study. Deep models, typically over-parametrized, tend to fit the training data exactly. Despite this "overfitting", they perform well on test data, a phenomenon not yet fully understood. The first point of our paper is that strong performance of overfitted classifiers is not a unique feature of deep learning. Using six real-world and two synthetic datasets, we establish experimentally that kernel machines trained to have zero classification or near zero regression error perform very well on test data, even when the labels are corrupted with a high level of noise. We proceed to give a lower bound on the norm of zero loss solutions for smooth kernels, showing that they increase nearly exponentially with data size. We point out that this is difficult to reconcile with the existing generalization bounds. Moreover, none of the bounds produce non-trivial results for interpolating solutions. Second, we show experimentally that (non-smooth) Laplacian kernels easily fit random labels, a finding that parallels results for ReLU neural networks. In contrast, fitting noisy data requires many more epochs for smooth Gaussian kernels. Similar performance of overfitted Laplacian and Gaussian classifiers on test, suggests that generalization is tied to the properties of the kernel function rather than the optimization process. Certain key phenomena of deep learning are manifested similarly in kernel methods in the modern "overfitted" regime. The combination of the experimental and theoretical results presented in this paper indicates a need for new theoretical ideas for understanding properties of classical kernel methods. We argue that progress on understanding deep learning will be difficult until more tractable "shallow" kernel methods are better understood.},
+	urldate = {2018-11-07},
+	journal = {arXiv:1802.01396 [cs, stat]},
+	author = {Belkin, Mikhail and Ma, Siyuan and Mandal, Soumik},
+	month = feb,
+	year = {2018},
+	note = {arXiv: 1802.01396},
+	keywords = {***, Computer Science - Machine Learning, deep learning, kernel learning, representer theorem, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1802.01396 PDF:/Users/arthur/Documents/Zotero/storage/RWMDNK3I/Belkin et al. - 2018 - To understand deep learning we need to understand .pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/2HVYBPSH/1802.html:text/html;classical math setup.JPG:/Users/arthur/Documents/Zotero/storage/JXYGFLZS/classical math setup.JPG:image/jpeg;conjectures.JPG:/Users/arthur/Documents/Zotero/storage/IB9G9GE9/conjectures.JPG:image/jpeg;contributions.JPG:/Users/arthur/Documents/Zotero/storage/44J6EI54/contributions.JPG:image/jpeg;interpolation vs overfitting.JPG:/Users/arthur/Documents/Zotero/storage/9AWP2UZ8/interpolation vs overfitting.JPG:image/jpeg;puzzling fact 1.JPG:/Users/arthur/Documents/Zotero/storage/RGWN6SFF/puzzling fact 1.JPG:image/jpeg;puzzling fact 2.JPG:/Users/arthur/Documents/Zotero/storage/7BAYXU5K/puzzling fact 2.JPG:image/jpeg;representer theorem.JPG:/Users/arthur/Documents/Zotero/storage/YIAP33GA/representer theorem.JPG:image/jpeg}
+}
+
+@article{zhang_understanding_2016,
+	title = {Understanding deep learning requires rethinking generalization},
+	url = {http://arxiv.org/abs/1611.03530},
+	abstract = {Despite their massive size, successful deep artificial neural networks can exhibit a remarkably small difference between training and test performance. Conventional wisdom attributes small generalization error either to properties of the model family, or to the regularization techniques used during training. Through extensive systematic experiments, we show how these traditional approaches fail to explain why large neural networks generalize well in practice. Specifically, our experiments establish that state-of-the-art convolutional networks for image classification trained with stochastic gradient methods easily fit a random labeling of the training data. This phenomenon is qualitatively unaffected by explicit regularization, and occurs even if we replace the true images by completely unstructured random noise. We corroborate these experimental findings with a theoretical construction showing that simple depth two neural networks already have perfect finite sample expressivity as soon as the number of parameters exceeds the number of data points as it usually does in practice. We interpret our experimental findings by comparison with traditional models.},
+	urldate = {2018-11-07},
+	journal = {arXiv:1611.03530 [cs]},
+	author = {Zhang, Chiyuan and Bengio, Samy and Hardt, Moritz and Recht, Benjamin and Vinyals, Oriol},
+	month = nov,
+	year = {2016},
+	note = {arXiv: 1611.03530},
+	keywords = {Computer Science - Machine Learning},
+	file = {arXiv\:1611.03530 PDF:/Users/arthur/Documents/Zotero/storage/IA47MTY5/Zhang et al. - 2016 - Understanding deep learning requires rethinking ge.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/LQDFX2LI/1611.html:text/html}
+}
+
+@article{he_deep_2015,
+	title = {Deep {Residual} {Learning} for {Image} {Recognition}},
+	url = {http://arxiv.org/abs/1512.03385},
+	abstract = {Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers---8x deeper than VGG nets but still having lower complexity. An ensemble of these residual nets achieves 3.57\% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28\% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC \& COCO 2015 competitions, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.},
+	urldate = {2018-11-07},
+	journal = {arXiv:1512.03385 [cs]},
+	author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+	month = dec,
+	year = {2015},
+	note = {arXiv: 1512.03385},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv\:1512.03385 PDF:/Users/arthur/Documents/Zotero/storage/EH7GVIYW/He et al. - 2015 - Deep Residual Learning for Image Recognition.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/WTUDFZC7/1512.html:text/html}
+}
+
+@article{silver_mastering_2016,
+	title = {Mastering the game of {Go} with deep neural networks and tree search},
+	volume = {529},
+	issn = {0028-0836, 1476-4687},
+	url = {http://www.nature.com/articles/nature16961},
+	doi = {10.1038/nature16961},
+	language = {en},
+	number = {7587},
+	urldate = {2018-11-07},
+	journal = {Nature},
+	author = {Silver, David and Huang, Aja and Maddison, Chris J. and Guez, Arthur and Sifre, Laurent and van den Driessche, George and Schrittwieser, Julian and Antonoglou, Ioannis and Panneershelvam, Veda and Lanctot, Marc and Dieleman, Sander and Grewe, Dominik and Nham, John and Kalchbrenner, Nal and Sutskever, Ilya and Lillicrap, Timothy and Leach, Madeleine and Kavukcuoglu, Koray and Graepel, Thore and Hassabis, Demis},
+	month = jan,
+	year = {2016},
+	keywords = {*****},
+	pages = {484--489},
+	file = {Full Text:/Users/arthur/Documents/Zotero/storage/7AWLJPQY/Silver et al. - 2016 - Mastering the game of Go with deep neural networks.pdf:application/pdf}
+}
+
+@article{silver_mastering_2017,
+	title = {Mastering the game of {Go} without human knowledge},
+	volume = {550},
+	issn = {0028-0836, 1476-4687},
+	url = {http://www.nature.com/doifinder/10.1038/nature24270},
+	doi = {10.1038/nature24270},
+	number = {7676},
+	urldate = {2018-11-07},
+	journal = {Nature},
+	author = {Silver, David and Schrittwieser, Julian and Simonyan, Karen and Antonoglou, Ioannis and Huang, Aja and Guez, Arthur and Hubert, Thomas and Baker, Lucas and Lai, Matthew and Bolton, Adrian and Chen, Yutian and Lillicrap, Timothy and Hui, Fan and Sifre, Laurent and van den Driessche, George and Graepel, Thore and Hassabis, Demis},
+	month = oct,
+	year = {2017},
+	keywords = {*****},
+	pages = {354--359}
+}
+
+@article{arpit_closer_2017,
+	title = {A {Closer} {Look} at {Memorization} in {Deep} {Networks}},
+	url = {http://arxiv.org/abs/1706.05394},
+	abstract = {We examine the role of memorization in deep learning, drawing connections to capacity, generalization, and adversarial robustness. While deep networks are capable of memorizing noise data, our results suggest that they tend to prioritize learning simple patterns first. In our experiments, we expose qualitative differences in gradient-based optimization of deep neural networks (DNNs) on noise vs. real data. We also demonstrate that for appropriately tuned explicit regularization (e.g., dropout) we can degrade DNN training performance on noise datasets without compromising generalization on real data. Our analysis suggests that the notions of effective capacity which are dataset independent are unlikely to explain the generalization performance of deep networks when trained with gradient based methods because training data itself plays an important role in determining the degree of memorization.},
+	urldate = {2018-11-07},
+	journal = {arXiv:1706.05394 [cs, stat]},
+	author = {Arpit, Devansh and Jastrzębski, Stanisław and Ballas, Nicolas and Krueger, David and Bengio, Emmanuel and Kanwal, Maxinder S. and Maharaj, Tegan and Fischer, Asja and Courville, Aaron and Bengio, Yoshua and Lacoste-Julien, Simon},
+	month = jun,
+	year = {2017},
+	note = {arXiv: 1706.05394},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+	file = {arXiv\:1706.05394 PDF:/Users/arthur/Documents/Zotero/storage/6VZ8CRW6/Arpit et al. - 2017 - A Closer Look at Memorization in Deep Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/NFGVZZJJ/1706.html:text/html}
+}
+
+@article{choromanska_loss_2014,
+	title = {The {Loss} {Surfaces} of {Multilayer} {Networks}},
+	url = {http://arxiv.org/abs/1412.0233},
+	abstract = {We study the connection between the highly non-convex loss function of a simple model of the fully-connected feed-forward neural network and the Hamiltonian of the spherical spin-glass model under the assumptions of: i) variable independence, ii) redundancy in network parametrization, and iii) uniformity. These assumptions enable us to explain the complexity of the fully decoupled neural network through the prism of the results from random matrix theory. We show that for large-size decoupled networks the lowest critical values of the random loss function form a layered structure and they are located in a well-defined band lower-bounded by the global minimum. The number of local minima outside that band diminishes exponentially with the size of the network. We empirically verify that the mathematical model exhibits similar behavior as the computer simulations, despite the presence of high dependencies in real networks. We conjecture that both simulated annealing and SGD converge to the band of low critical points, and that all critical points found there are local minima of high quality measured by the test error. This emphasizes a major difference between large- and small-size networks where for the latter poor quality local minima have non-zero probability of being recovered. Finally, we prove that recovering the global minimum becomes harder as the network size increases and that it is in practice irrelevant as global minimum often leads to overfitting.},
+	urldate = {2018-11-07},
+	journal = {arXiv:1412.0233 [cs]},
+	author = {Choromanska, Anna and Henaff, Mikael and Mathieu, Michael and Arous, Gérard Ben and LeCun, Yann},
+	month = nov,
+	year = {2014},
+	note = {arXiv: 1412.0233},
+	keywords = {Computer Science - Machine Learning},
+	file = {arXiv\:1412.0233 PDF:/Users/arthur/Documents/Zotero/storage/9AICHVLX/Choromanska et al. - 2014 - The Loss Surfaces of Multilayer Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/DGZWGZJR/1412.html:text/html}
+}
+
+@article{olah_building_2018,
+	title = {The {Building} {Blocks} of {Interpretability}},
+	volume = {3},
+	issn = {2476-0757},
+	url = {https://distill.pub/2018/building-blocks},
+	doi = {10.23915/distill.00010},
+	number = {3},
+	urldate = {2018-11-07},
+	journal = {Distill},
+	author = {Olah, Chris and Satyanarayan, Arvind and Johnson, Ian and Carter, Shan and Schubert, Ludwig and Ye, Katherine and Mordvintsev, Alexander},
+	month = mar,
+	year = {2018}
+}
+
+@article{montanelli_new_2017,
+	title = {New error bounds for deep networks using sparse grids},
+	url = {http://arxiv.org/abs/1712.08688},
+	abstract = {We prove a theorem concerning the approximation of multivariate functions by deep ReLU networks. We present new error estimates for which the curse of the dimensionality is lessened by establishing a connection with sparse grids.},
+	urldate = {2018-11-09},
+	journal = {arXiv:1712.08688 [math]},
+	author = {Montanelli, Hadrien and Du, Qiang},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1712.08688},
+	keywords = {Mathematics - Numerical Analysis, deep learning, theoretical understanding},
+	file = {arXiv\:1712.08688 PDF:/Users/arthur/Documents/Zotero/storage/VSTBDXCG/Montanelli and Du - 2017 - New error bounds for deep networks using sparse gr.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/4HKE85L6/1712.html:text/html}
+}
+
+@article{foerster_learning_2016,
+	title = {Learning to {Communicate} with {Deep} {Multi}-{Agent} {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1605.06676},
+	abstract = {We consider the problem of multiple agents sensing and acting in environments with the goal of maximising their shared utility. In these environments, agents must learn communication protocols in order to share information that is needed to solve the tasks. By embracing deep neural networks, we are able to demonstrate end-to-end learning of protocols in complex environments inspired by communication riddles and multi-agent computer vision problems with partial observability. We propose two approaches for learning in these domains: Reinforced Inter-Agent Learning (RIAL) and Differentiable Inter-Agent Learning (DIAL). The former uses deep Q-learning, while the latter exploits the fact that, during learning, agents can backpropagate error derivatives through (noisy) communication channels. Hence, this approach uses centralised learning but decentralised execution. Our experiments introduce new environments for studying the learning of communication protocols and present a set of engineering innovations that are essential for success in these domains.},
+	urldate = {2018-11-09},
+	journal = {arXiv:1605.06676 [cs]},
+	author = {Foerster, Jakob N. and Assael, Yannis M. and de Freitas, Nando and Whiteson, Shimon},
+	month = may,
+	year = {2016},
+	note = {arXiv: 1605.06676},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Multiagent Systems},
+	file = {arXiv\:1605.06676 PDF:/Users/arthur/Documents/Zotero/storage/JKIA8QSS/Foerster et al. - 2016 - Learning to Communicate with Deep Multi-Agent Rein.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/ZWPJ4GK7/1605.html:text/html}
+}
+
+@article{zoph_neural_2016,
+	title = {Neural {Architecture} {Search} with {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1611.01578},
+	abstract = {Neural networks are powerful and flexible models that work well for many difficult learning tasks in image, speech and natural language understanding. Despite their success, neural networks are still hard to design. In this paper, we use a recurrent network to generate the model descriptions of neural networks and train this RNN with reinforcement learning to maximize the expected accuracy of the generated architectures on a validation set. On the CIFAR-10 dataset, our method, starting from scratch, can design a novel network architecture that rivals the best human-invented architecture in terms of test set accuracy. Our CIFAR-10 model achieves a test error rate of 3.65, which is 0.09 percent better and 1.05x faster than the previous state-of-the-art model that used a similar architectural scheme. On the Penn Treebank dataset, our model can compose a novel recurrent cell that outperforms the widely-used LSTM cell, and other state-of-the-art baselines. Our cell achieves a test set perplexity of 62.4 on the Penn Treebank, which is 3.6 perplexity better than the previous state-of-the-art model. The cell can also be transferred to the character language modeling task on PTB and achieves a state-of-the-art perplexity of 1.214.},
+	urldate = {2018-11-15},
+	journal = {arXiv:1611.01578 [cs]},
+	author = {Zoph, Barret and Le, Quoc V.},
+	month = nov,
+	year = {2016},
+	note = {arXiv: 1611.01578},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Neural and Evolutionary Computing},
+	file = {arXiv\:1611.01578 PDF:/Users/arthur/Documents/Zotero/storage/EV9I9ASI/Zoph and Le - 2016 - Neural Architecture Search with Reinforcement Lear.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/FS8XAAAT/1611.html:text/html}
+}
+
+@article{pham_efficient_2018,
+	title = {Efficient {Neural} {Architecture} {Search} via {Parameter} {Sharing}},
+	url = {http://arxiv.org/abs/1802.03268},
+	abstract = {We propose Efficient Neural Architecture Search (ENAS), a fast and inexpensive approach for automatic model design. In ENAS, a controller learns to discover neural network architectures by searching for an optimal subgraph within a large computational graph. The controller is trained with policy gradient to select a subgraph that maximizes the expected reward on the validation set. Meanwhile the model corresponding to the selected subgraph is trained to minimize a canonical cross entropy loss. Thanks to parameter sharing between child models, ENAS is fast: it delivers strong empirical performances using much fewer GPU-hours than all existing automatic model design approaches, and notably, 1000x less expensive than standard Neural Architecture Search. On the Penn Treebank dataset, ENAS discovers a novel architecture that achieves a test perplexity of 55.8, establishing a new state-of-the-art among all methods without post-training processing. On the CIFAR-10 dataset, ENAS designs novel architectures that achieve a test error of 2.89\%, which is on par with NASNet (Zoph et al., 2018), whose test error is 2.65\%.},
+	urldate = {2018-11-15},
+	journal = {arXiv:1802.03268 [cs, stat]},
+	author = {Pham, Hieu and Guan, Melody Y. and Zoph, Barret and Le, Quoc V. and Dean, Jeff},
+	month = feb,
+	year = {2018},
+	note = {arXiv: 1802.03268},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Neural and Evolutionary Computing, Computer Science - Computation and Language},
+	file = {arXiv\:1802.03268 PDF:/Users/arthur/Documents/Zotero/storage/4QC6S559/Pham et al. - 2018 - Efficient Neural Architecture Search via Parameter.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/4FHIVV3A/1802.html:text/html}
+}
+
+@article{bello_neural_2017,
+	title = {Neural {Optimizer} {Search} with {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1709.07417},
+	abstract = {We present an approach to automate the process of discovering optimization methods, with a focus on deep learning architectures. We train a Recurrent Neural Network controller to generate a string in a domain specific language that describes a mathematical update equation based on a list of primitive functions, such as the gradient, running average of the gradient, etc. The controller is trained with Reinforcement Learning to maximize the performance of a model after a few epochs. On CIFAR-10, our method discovers several update rules that are better than many commonly used optimizers, such as Adam, RMSProp, or SGD with and without Momentum on a ConvNet model. We introduce two new optimizers, named PowerSign and AddSign, which we show transfer well and improve training on a variety of different tasks and architectures, including ImageNet classification and Google's neural machine translation system.},
+	urldate = {2018-11-15},
+	journal = {arXiv:1709.07417 [cs, stat]},
+	author = {Bello, Irwan and Zoph, Barret and Vasudevan, Vijay and Le, Quoc V.},
+	month = sep,
+	year = {2017},
+	note = {arXiv: 1709.07417},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence},
+	file = {arXiv\:1709.07417 PDF:/Users/arthur/Documents/Zotero/storage/38NZ5MPU/Bello et al. - 2017 - Neural Optimizer Search with Reinforcement Learnin.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/UYXW3QD3/1709.html:text/html}
+}
+
+@misc{arora_generalization_2017,
+	title = {Generalization {Theory} and {Deep} {Nets}, {An} introduction},
+	url = {http://www.offconvex.org/2017/12/08/generalization1/},
+	journal = {off the convex path},
+	author = {Arora, Sanjeev},
+	month = dec,
+	year = {2017},
+	keywords = {***, deep learning, generalization, theoretical understanding}
+}
+
+@misc{arora_proving_2018,
+	title = {Proving generalization of deep nets via compression},
+	url = {http://www.offconvex.org/2018/02/17/generalization2/},
+	journal = {off the convex path},
+	author = {Arora, Sanjeev},
+	month = feb,
+	year = {2018}
+}
+
+@article{han_deep_2015,
+	title = {Deep {Compression}: {Compressing} {Deep} {Neural} {Networks} with {Pruning}, {Trained} {Quantization} and {Huffman} {Coding}},
+	shorttitle = {Deep {Compression}},
+	url = {http://arxiv.org/abs/1510.00149},
+	abstract = {Neural networks are both computationally intensive and memory intensive, making them difficult to deploy on embedded systems with limited hardware resources. To address this limitation, we introduce "deep compression", a three stage pipeline: pruning, trained quantization and Huffman coding, that work together to reduce the storage requirement of neural networks by 35x to 49x without affecting their accuracy. Our method first prunes the network by learning only the important connections. Next, we quantize the weights to enforce weight sharing, finally, we apply Huffman coding. After the first two steps we retrain the network to fine tune the remaining connections and the quantized centroids. Pruning, reduces the number of connections by 9x to 13x; Quantization then reduces the number of bits that represent each connection from 32 to 5. On the ImageNet dataset, our method reduced the storage required by AlexNet by 35x, from 240MB to 6.9MB, without loss of accuracy. Our method reduced the size of VGG-16 by 49x from 552MB to 11.3MB, again with no loss of accuracy. This allows fitting the model into on-chip SRAM cache rather than off-chip DRAM memory. Our compression method also facilitates the use of complex neural networks in mobile applications where application size and download bandwidth are constrained. Benchmarked on CPU, GPU and mobile GPU, compressed network has 3x to 4x layerwise speedup and 3x to 7x better energy efficiency.},
+	urldate = {2018-11-18},
+	journal = {arXiv:1510.00149 [cs]},
+	author = {Han, Song and Mao, Huizi and Dally, William J.},
+	month = oct,
+	year = {2015},
+	note = {arXiv: 1510.00149},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Neural and Evolutionary Computing},
+	file = {arXiv\:1510.00149 PDF:/Users/arthur/Documents/Zotero/storage/WNEPKWKN/Han et al. - 2015 - Deep Compression Compressing Deep Neural Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/JPZAVSHK/1510.html:text/html}
+}
+
+@misc{blier_deep_2018,
+	title = {Do {Deep} {Learning} {Models} have too many parameters?},
+	language = {en},
+	author = {Blier, Léonard},
+	month = nov,
+	year = {2018},
+	keywords = {**},
+	file = {Do Deep Learning Models have too many parameters:/Users/arthur/Documents/Zotero/storage/F87GHE82/Blier - Do Deep Learning Models have too many parameters.pdf:application/pdf}
+}
+
+@article{hariz_dbs_2016,
+	title = {"{DBS} means everything – for some time". {Patients}’ {Perspectives} on {Daily} {Life} with {Deep} {Brain} {Stimulation} for {Parkinson}’s {Disease}},
+	volume = {6},
+	issn = {18777171, 1877718X},
+	url = {http://www.medra.org/servlet/aliasResolver?alias=iospress&doi=10.3233/JPD-160799},
+	doi = {10.3233/JPD-160799},
+	number = {2},
+	urldate = {2018-11-20},
+	journal = {Journal of Parkinson's Disease},
+	author = {Hariz, Gun-Marie and Limousin, Patricia and Hamberg, Katarina},
+	month = may,
+	year = {2016},
+	keywords = {**},
+	pages = {335--347},
+	file = {Full Text:/Users/arthur/Documents/Zotero/storage/C8P3IM3M/Hariz et al. - 2016 - “DBS means everything – for some time”. Patients’ .pdf:application/pdf}
+}
+
+@misc{wiblin_phd_nodate,
+	title = {{PhD} or programming? {Paths} into aligning {AI}, from engineers at {Google} {Brain} \& {OpenAI}},
+	shorttitle = {{PhD} or programming?},
+	url = {https://80000hours.org/podcast/episodes/olsson-and-ziegler-ml-engineering-and-safety/},
+	abstract = {Google Brain's Catherine Olsson \& OpenAI's Daniel Ziegler on the fast path to machine learning engineering roles focused on safety and alignment.},
+	language = {en-US},
+	urldate = {2018-11-21},
+	journal = {80,000 Hours},
+	author = {Wiblin, Robert and Harris, Keiran},
+	keywords = {research, work, OpenAI, GoogleBrain, ***},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/HKWP4I5C/olsson-and-ziegler-ml-engineering-and-safety.html:text/html}
+}
+
+@misc{olsson_ml_nodate,
+	title = {{ML} engineering for {AI} safety \& robustness: a {Google} {Brain} engineer's guide to entering the field},
+	shorttitle = {{ML} engineering for {AI} safety \& robustness},
+	url = {https://80000hours.org/articles/ml-engineering-career-transition-guide/},
+	abstract = {Note that this guide was written in November 2018 to complement an in-depth conversation on the 80,000 Hours Podcast with Catherine Olsson and Daniel Ziegler on how to transition from computer science and software engineering in general into ML engineering, with a focus on alignment and safety. If you like this guide, we'd strongly encourage you to check out the podcast episode where we discuss some of the instructions here, and other relevant advice. Technical AI safety is a multifaceted area of research, with many sub-questions in areas such as reward learning, robustness, and interpretability. These will all need to be answered in order to make sure AI development will go well for humanity as systems become more and more powerful.},
+	language = {en-US},
+	urldate = {2018-11-21},
+	journal = {80,000 Hours},
+	author = {Olsson, Catherine and 80000 Hours},
+	keywords = {research, work, ****},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/A42276LV/ml-engineering-career-transition-guide.html:text/html}
+}
+
+@misc{tal_mastering_nodate,
+	title = {Mastering {The} {New} {Generation} of {Gradient} {Boosting}},
+	url = {https://www.kdnuggets.com/2018/11/mastering-new-generation-gradient-boosting.html, https://www.kdnuggets.com/2018/11/mastering-new-generation-gradient-boosting.html},
+	abstract = {Catboost, the new kid on the block, has been around for a little more than a year now, and it is already threatening XGBoost, LightGBM and H2O.},
+	language = {en-US},
+	urldate = {2018-11-21},
+	author = {Tal, Peretz},
+	keywords = {catboost, GBDT, ***},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/S2Q3YC5L/mastering-new-generation-gradient-boosting.html:text/html}
+}
+
+@misc{3blue1brown_visualizing_nodate,
+	title = {Visualizing the {Riemann} hypothesis and analytic continuation},
+	url = {https://www.youtube.com/watch?v=sD0NjbwqlYw},
+	abstract = {Understanding the Riemann hypothesis requires understanding a certain function which is famously confusing outside its "domain of convergence", but a certain visualization sheds light on how it extends.
+
+There are posters for this visualization of the zeta function at http://3b1b.co/store.},
+	urldate = {2018-11-21},
+	author = {{3Blue1Brown}},
+	keywords = {Reimann, visualization, zeta, ****}
+}
+
+@misc{achiam_spinning_2018,
+	title = {Spinning {Up} in {Deep} {RL}},
+	url = {https://blog.openai.com/spinning-up-in-deep-rl/},
+	abstract = {We’re releasing Spinning Up in Deep RL, an educational resource designed to let anyone learn to become a skilled practitioner in deep reinforcement learning. Spinning Up consists of crystal-clear examples of RL code, educational exercises, documentation, and tutorials.},
+	urldate = {2018-11-22},
+	journal = {OpenAI Blog},
+	author = {Achiam, Josh},
+	month = nov,
+	year = {2018},
+	keywords = {deep learning, lecture, openAI, reinforcement learning, deepRL, *****, tutorial},
+	file = {Achiam - 2018 - Spinning Up in Deep RL.pdf:/Users/arthur/Documents/Zotero/storage/VY6PMSTR/Achiam - 2018 - Spinning Up in Deep RL.pdf:application/pdf;RL algos taxonomy.png:/Users/arthur/Documents/Zotero/storage/CJ9R447A/RL algos taxonomy.png:image/png;Snapshot:/Users/arthur/Documents/Zotero/storage/PA424G3P/spinning-up-in-deep-rl.html:text/html}
+}
+
+@misc{noauthor_welcome_nodate,
+	title = {Welcome to {Spinning} {Up} in {Deep} {RL}! — {Spinning} {Up} documentation},
+	url = {https://spinningup.openai.com/en/latest/index.html},
+	urldate = {2018-11-22},
+	keywords = {openAI, reinforcement learning},
+	file = {Welcome to Spinning Up in Deep RL! — Spinning Up documentation:/Users/arthur/Documents/Zotero/storage/5CIKT6Y3/index.html:text/html}
+}
+
+@misc{noauthor_key_nodate,
+	title = {Key {Papers} in {Deep} {RL} - {From} {Spinning} {Up} lecture},
+	url = {https://spinningup.openai.com/en/latest/spinningup/keypapers.html#},
+	urldate = {2018-11-22},
+	keywords = {openAI, bibliography, papers},
+	file = {Key Papers in Deep RL — Spinning Up documentation:/Users/arthur/Documents/Zotero/storage/VB9A5LE5/keypapers.html:text/html}
+}
+
+@misc{ai_prism_deep_nodate,
+	title = {Deep {RL} {Bootcamp}},
+	shorttitle = {Deep {RL} {Bootcamp}},
+	url = {https://www.youtube.com/watch?v=qaMdN6LS9rA&list=PLAdk-EyP1ND8MqJEJnSvaoUShrAWYe51U},
+	urldate = {2018-11-22},
+	author = {{AI Prism}},
+	keywords = {lecture, deepRL, *****},
+	file = {L1 - overview.png:/Users/arthur/Documents/Zotero/storage/QJFWWHLX/overview.png:image/png;L2 - approximate Q-learning.png:/Users/arthur/Documents/Zotero/storage/QDLSLNDT/approximate Q-learning.png:image/png;L2 - tabular Q-learning.png:/Users/arthur/Documents/Zotero/storage/K52SNBRX/tabular Q-learning.png:image/png;L3 - ATARI network.png:/Users/arthur/Documents/Zotero/storage/M9R4K33C/ATARI network.png:image/png;L3 - double DQN.png:/Users/arthur/Documents/Zotero/storage/NMGNUUFB/DDQN algo.png:image/png;L3 - DQN algo.png:/Users/arthur/Documents/Zotero/storage/HW4GK3F7/DQN algo.png:image/png;L3 - DQN details.png:/Users/arthur/Documents/Zotero/storage/GND4HQ4B/DQN details.png:image/png;L3 - dueling DQN.png:/Users/arthur/Documents/Zotero/storage/ZSE8SU72/dueling DQN.png:image/png;L3 - NFQ algo.png:/Users/arthur/Documents/Zotero/storage/M36CNTWW/NFQ algo.png:image/png;L3 - prioritized experience replay.png:/Users/arthur/Documents/Zotero/storage/BGNH2EM4/prioritized experience replay.png:image/png;L4a - A3C & GAE.png:/Users/arthur/Documents/Zotero/storage/9CMZRH5L/L4a - A3C & GAE.png:image/png;L4a - A3C idea.png:/Users/arthur/Documents/Zotero/storage/MA8FJ69U/L4a - A3C idea.png:image/png;L4a - baseline and temporal structure to improve LRPG.png:/Users/arthur/Documents/Zotero/storage/Z3QF8M36/L4a - baseline and temporal structure to improve LRPG.png:image/png;L4a - GAE idea.png:/Users/arthur/Documents/Zotero/storage/Q9V2G3RF/L4a - GAE idea.png:image/png;L4a - interest of LRPG.png:/Users/arthur/Documents/Zotero/storage/SA23C5B5/L4a - interest of LRPG.png:image/png;L4a - likelihood ratio policy gradient.png:/Users/arthur/Documents/Zotero/storage/TRFSZ3HP/likelihood ratio policy gradient.png:image/png;L4a - link LRPG and iportance sampling.png:/Users/arthur/Documents/Zotero/storage/38QEP7AI/L4a - link LRPG and iportance sampling.png:image/png;L4a - magic of P(path) in LRPG.png:/Users/arthur/Documents/Zotero/storage/Z65XVMFH/L4a - magic of P(path) in LRPG.png:image/png;L4a - overview.png:/Users/arthur/Documents/Zotero/storage/W2595RP6/overview 2.png:image/png;L4a - papers about having Q functions with easy max.png:/Users/arthur/Documents/Zotero/storage/5WC46XYW/papers about having Q functions with easy max.png:image/png;L4a - VPG.png:/Users/arthur/Documents/Zotero/storage/566H98ZR/L4a - VPG.png:image/png;L4b - overview.png:/Users/arthur/Documents/Zotero/storage/7U4KBXP9/L4b - overview.png:image/png;L5 - PPO clipped.png:/Users/arthur/Documents/Zotero/storage/D6RWKZM8/L5 - PPO clipped.png:image/png;L5 - PPO.png:/Users/arthur/Documents/Zotero/storage/G2AXS7DQ/L5 - PPO.png:image/png;L5 - TRPO idea.png:/Users/arthur/Documents/Zotero/storage/88UZYQGQ/L5 - TRPO.png:image/png;L5 - TRPO.png:/Users/arthur/Documents/Zotero/storage/DYRUMIC8/L5 - TRPO.png:image/png;L6 - example reparametrization.png:/Users/arthur/Documents/Zotero/storage/RZB4GW3E/L6 - example reparametrization.png:image/png;L6 - tips and tricks (no photo).png:/Users/arthur/Documents/Zotero/storage/DZNKAPES/L6 - tips and tricks (no photo).png:image/png;L7 - gradient of expectations.png:/Users/arthur/Documents/Zotero/storage/Z5C8WHQ9/L7 - gradient of expectations.png:image/png;L7 - SVG, DDPG, wtf je pige rien ^^.png:/Users/arthur/Documents/Zotero/storage/BNMW7JJ2/L7 - WTF je pige rien ^^.png:image/png;L8 - CEM.png:/Users/arthur/Documents/Zotero/storage/HANWIFWB/L8 - CEM.png:image/png;L8 - parralelized ES.png:/Users/arthur/Documents/Zotero/storage/H7PLCXKM/L8 - parralelized ES.png:image/png;L8 - tricks.png:/Users/arthur/Documents/Zotero/storage/HDV7W2UY/L8 - tricks.png:image/png;L9 - MPC.png:/Users/arthur/Documents/Zotero/storage/JAV3F95G/L9 - MPC.png:image/png;L9 - overview and method benchmark.png:/Users/arthur/Documents/Zotero/storage/QQBILY8C/L9 - overview and method benchmark.png:image/png;L9 - overview and sample efficiency benchmark.png:/Users/arthur/Documents/Zotero/storage/QLP4SH2B/L9 - overview and sample efficiency.png:image/png}
+}
+
+@misc{higgsfield_pytorch0.4_2018,
+	title = {{PyTorch}0.4 implementation of: actor critic / proximal policy optimization / acer / ddpg / twin dueling ddpg / soft actor critic / generative adversarial imitation learning / hindsight experience re..},
+	shorttitle = {{PyTorch}0.4 implementation of},
+	url = {https://github.com/higgsfield/RL-Adventure-2},
+	urldate = {2018-11-22},
+	author = {higgsfield},
+	month = nov,
+	year = {2018},
+	note = {original-date: 2018-05-26T22:47:43Z},
+	keywords = {bibliography, deepRL, pytorch}
+}
+
+@misc{arxiv_insights_policy_nodate,
+	title = {Policy {Gradient} methods and {Proximal} {Policy} {Optimization} ({PPO}): diving into {Deep} {RL}!},
+	shorttitle = {Policy {Gradient} methods and {Proximal} {Policy} {Optimization} ({PPO})},
+	url = {https://www.youtube.com/watch?v=5P7I-xPq8u8},
+	urldate = {2018-11-23},
+	author = {{Arxiv Insights}},
+	keywords = {bibliography, deepRL, PPO, TRPO, ****}
+}
+
+@misc{hoydis_learn_nodate,
+	title = {Learn to {Communicate} with {Deep} {Autoencoders}},
+	language = {en},
+	author = {Hoydis, Jakob},
+	keywords = {communication, deep learning, **},
+	file = {Hoydis - Learn to Communicate with Deep Autoencoders.pdf:/Users/arthur/Documents/Zotero/storage/QQTUMPDR/Hoydis - Learn to Communicate with Deep Autoencoders.pdf:application/pdf}
+}
+
+@article{oshea_introduction_2017,
+	title = {An {Introduction} to {Deep} {Learning} for the {Physical} {Layer}},
+	url = {http://arxiv.org/abs/1702.00832},
+	abstract = {We present and discuss several novel applications of deep learning for the physical layer. By interpreting a communications system as an autoencoder, we develop a fundamental new way to think about communications system design as an end-to-end reconstruction task that seeks to jointly optimize transmitter and receiver components in a single process. We show how this idea can be extended to networks of multiple transmitters and receivers and present the concept of radio transformer networks as a means to incorporate expert domain knowledge in the machine learning model. Lastly, we demonstrate the application of convolutional neural networks on raw IQ samples for modulation classification which achieves competitive accuracy with respect to traditional schemes relying on expert features. The paper is concluded with a discussion of open challenges and areas for future investigation.},
+	urldate = {2018-11-23},
+	journal = {arXiv:1702.00832 [cs, math]},
+	author = {O'Shea, Timothy J. and Hoydis, Jakob},
+	month = feb,
+	year = {2017},
+	note = {arXiv: 1702.00832},
+	keywords = {Computer Science - Machine Learning, Computer Science - Information Theory, Computer Science - Networking and Internet Architecture},
+	file = {An Introduction to Deep Learning for the Physical Layer:/Users/arthur/Documents/Zotero/storage/8BUUECVB/O'Shea and Hoydis - 2017 - An Introduction to Deep Learning for the Physical .pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/XCNDFUZ4/1702.html:text/html}
+}
+
+@article{aoudia_end--end_2018,
+	title = {End-to-{End} {Learning} of {Communications} {Systems} {Without} a {Channel} {Model}},
+	url = {http://arxiv.org/abs/1804.02276},
+	abstract = {The idea of end-to-end learning of communications systems through neural network -based autoencoders has the shortcoming that it requires a differentiable channel model. We present in this paper a novel learning algorithm which alleviates this problem. The algorithm iterates between supervised training of the receiver and reinforcement learning -based training of the transmitter. We demonstrate that this approach works as well as fully supervised methods on additive white Gaussian noise (AWGN) and Rayleigh block-fading (RBF) channels. Surprisingly, while our method converges slower on AWGN channels than supervised training, it converges faster on RBF channels. Our results are a first step towards learning of communications systems over any type of channel without prior assumptions.},
+	urldate = {2018-11-23},
+	journal = {arXiv:1804.02276 [cs, math, stat]},
+	author = {Aoudia, Fayçal Ait and Hoydis, Jakob},
+	month = apr,
+	year = {2018},
+	note = {arXiv: 1804.02276},
+	keywords = {Statistics - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Information Theory},
+	file = {arXiv\:1804.02276 PDF:/Users/arthur/Documents/Zotero/storage/BAFWC65Z/Aoudia and Hoydis - 2018 - End-to-End Learning of Communications Systems With.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/TJAIT6EA/1804.html:text/html}
+}
+
+@article{dorner_deep_2018,
+	title = {Deep {Learning}-{Based} {Communication} {Over} the {Air}},
+	volume = {12},
+	issn = {1932-4553, 1941-0484},
+	url = {http://arxiv.org/abs/1707.03384},
+	doi = {10.1109/JSTSP.2017.2784180},
+	abstract = {End-to-end learning of communications systems is a fascinating novel concept that has so far only been validated by simulations for block-based transmissions. It allows learning of transmitter and receiver implementations as deep neural networks (NNs) that are optimized for an arbitrary differentiable end-to-end performance metric, e.g., block error rate (BLER). In this paper, we demonstrate that over-the-air transmissions are possible: We build, train, and run a complete communications system solely composed of NNs using unsynchronized off-the-shelf software-defined radios (SDRs) and open-source deep learning (DL) software libraries. We extend the existing ideas towards continuous data transmission which eases their current restriction to short block lengths but also entails the issue of receiver synchronization. We overcome this problem by introducing a frame synchronization module based on another NN. A comparison of the BLER performance of the "learned" system with that of a practical baseline shows competitive performance close to 1 dB, even without extensive hyperparameter tuning. We identify several practical challenges of training such a system over actual channels, in particular the missing channel gradient, and propose a two-step learning procedure based on the idea of transfer learning that circumvents this issue.},
+	number = {1},
+	urldate = {2018-11-23},
+	journal = {IEEE Journal of Selected Topics in Signal Processing},
+	author = {Dörner, Sebastian and Cammerer, Sebastian and Hoydis, Jakob and Brink, Stephan ten},
+	month = feb,
+	year = {2018},
+	note = {arXiv: 1707.03384},
+	keywords = {Statistics - Machine Learning, Computer Science - Information Theory},
+	pages = {132--143},
+	file = {arXiv\:1707.03384 PDF:/Users/arthur/Documents/Zotero/storage/YI3Z2P5J/Dörner et al. - 2018 - Deep Learning-Based Communication Over the Air.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/DEZQQ4IX/1707.html:text/html}
+}
+
+@article{peng_deeploco:_2017,
+	title = {{DeepLoco}: dynamic locomotion skills using hierarchical deep reinforcement learning},
+	volume = {36},
+	issn = {07300301},
+	shorttitle = {{DeepLoco}},
+	url = {http://dl.acm.org/citation.cfm?doid=3072959.3073602},
+	doi = {10.1145/3072959.3073602},
+	language = {en},
+	number = {4},
+	urldate = {2018-11-23},
+	journal = {ACM Transactions on Graphics},
+	author = {Peng, Xue Bin and Berseth, Glen and Yin, Kangkang and Van De Panne, Michiel},
+	month = jul,
+	year = {2017},
+	keywords = {deepRL, NERD, deep loco},
+	pages = {1--13},
+	file = {DeepLoco dynamic locomotion skills using hierarchical deep reinforcement learning:/Users/arthur/Documents/Zotero/storage/EHL2UIFW/Peng et al. - 2017 - DeepLoco dynamic locomotion skills using hierarch.pdf:application/pdf}
+}
+
+@misc{noauthor_riemann_nodate,
+	title = {Riemann {Zeta} {Viewer} {Flight} {Manual}},
+	url = {http://www.dhushara.com/DarkHeart/RZV/RZViewer.htm},
+	urldate = {2018-11-23},
+	keywords = {Reimann, zeta, tool, viewer, ****},
+	file = {Riemann Zeta Viewer Flight Manual:/Users/arthur/Documents/Zotero/storage/Z6DUM22D/RZViewer.html:text/html}
+}
+
+@misc{rahtz_lessons_nodate,
+	title = {Lessons {Learned} {Reproducing} a {Deep} {Reinforcement} {Learning} {Paper}},
+	url = {http://amid.fish/reproducing-deep-rl},
+	urldate = {2018-11-25},
+	author = {Rahtz, Matthew},
+	keywords = {work, deepRL, ****, reproducing papers, tips},
+	file = {Lessons Learned Reproducing a Deep Reinforcement Learning Paper:/Users/arthur/Documents/Zotero/storage/JCZZBGPM/reproducing-deep-rl.html:text/html}
+}
+
+@misc{enam_zayds_nodate,
+	title = {Zayd's {Blog} – {Why} is machine learning 'hard'?},
+	url = {http://ai.stanford.edu/~zayd/why-is-machine-learning-hard.html},
+	urldate = {2018-11-25},
+	author = {Enam, Zayd},
+	keywords = {work, **, machine learning, debugging},
+	file = {Zayd's Blog – Why is machine learning 'hard'?:/Users/arthur/Documents/Zotero/storage/QJTL6QTZ/why-is-machine-learning-hard.html:text/html}
+}
+
+@misc{noauthor_deep_nodate,
+	title = {Deep {Reinforcement} {Learning} practical tips},
+	url = {https://www.reddit.com/r/reinforcementlearning/comments/7s8px9/deep_reinforcement_learning_practical_tips/},
+	abstract = {10 votes and 13 comments so far on Reddit},
+	language = {en},
+	urldate = {2018-11-25},
+	journal = {reddit},
+	keywords = {deepRL, tricks},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/NGZDSUSW/deep_reinforcement_learning_practical_tips.html:text/html}
+}
+
+@article{schulman_high-dimensional_2015,
+	title = {High-{Dimensional} {Continuous} {Control} {Using} {Generalized} {Advantage} {Estimation}},
+	url = {http://arxiv.org/abs/1506.02438},
+	abstract = {Policy gradient methods are an appealing approach in reinforcement learning because they directly optimize the cumulative reward and can straightforwardly be used with nonlinear function approximators such as neural networks. The two main challenges are the large number of samples typically required, and the difficulty of obtaining stable and steady improvement despite the nonstationarity of the incoming data. We address the first challenge by using value functions to substantially reduce the variance of policy gradient estimates at the cost of some bias, with an exponentially-weighted estimator of the advantage function that is analogous to TD(lambda). We address the second challenge by using trust region optimization procedure for both the policy and the value function, which are represented by neural networks. Our approach yields strong empirical results on highly challenging 3D locomotion tasks, learning running gaits for bipedal and quadrupedal simulated robots, and learning a policy for getting the biped to stand up from starting out lying on the ground. In contrast to a body of prior work that uses hand-crafted policy representations, our neural network policies map directly from raw kinematics to joint torques. Our algorithm is fully model-free, and the amount of simulated experience required for the learning tasks on 3D bipeds corresponds to 1-2 weeks of real time.},
+	urldate = {2018-11-27},
+	journal = {arXiv:1506.02438 [cs]},
+	author = {Schulman, John and Moritz, Philipp and Levine, Sergey and Jordan, Michael and Abbeel, Pieter},
+	month = jun,
+	year = {2015},
+	note = {arXiv: 1506.02438},
+	keywords = {Computer Science - Machine Learning, NERD, Computer Science - Robotics, Computer Science - Systems and Control, deep loco},
+	file = {arXiv\:1506.02438 PDF:/Users/arthur/Documents/Zotero/storage/9PE79DQC/Schulman et al. - 2015 - High-Dimensional Continuous Control Using Generali.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/XZSLNEU3/1506.html:text/html}
+}
+
+@misc{deepmind_advanced_nodate,
+	title = {Advanced {Deep} {Learning} \& {Reinforcement} {Learning}},
+	url = {http://www.youtube.com/playlist?list=PLqYmG7hTraZDNJre23vqCGIVpfZ_K2RZs},
+	abstract = {This course, taught originally at UCL and recorded for online access, has two interleaved parts that converge towards the end of the course.},
+	language = {en-GB},
+	urldate = {2018-11-27},
+	author = {deepmind},
+	keywords = {deep learning, lecture, deepRL, tutorial},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/QGZSGC7E/playlist.html:text/html}
+}
+
+@article{zou_stochastic_2018,
+	title = {Stochastic {Gradient} {Descent} {Optimizes} {Over}-parameterized {Deep} {ReLU} {Networks}},
+	url = {http://arxiv.org/abs/1811.08888},
+	abstract = {We study the problem of training deep neural networks with Rectified Linear Unit (ReLU) activiation function using gradient descent and stochastic gradient descent. In particular, we study the binary classification problem and show that for a broad family of loss functions, with proper random weight initialization, both gradient descent and stochastic gradient descent can find the global minima of the training loss for an over-parameterized deep ReLU network, under mild assumption on the training data. The key idea of our proof is that Gaussian random initialization followed by (stochastic) gradient descent produces a sequence of iterates that stay inside a small perturbation region centering around the initial weights, in which the empirical loss function of deep ReLU networks enjoys nice local curvature properties that ensure the global convergence of (stochastic) gradient descent. Our theoretical results shed light on understanding the optimization of deep learning, and pave the way to study the optimization dynamics of training modern deep neural networks.},
+	urldate = {2018-11-27},
+	journal = {arXiv:1811.08888 [cs, math, stat]},
+	author = {Zou, Difan and Cao, Yuan and Zhou, Dongruo and Gu, Quanquan},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.08888},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, deep learning, Mathematics - Optimization and Control, over-parameterization, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1811.08888 PDF:/Users/arthur/Documents/Zotero/storage/ZTFQRLZN/Zou et al. - 2018 - Stochastic Gradient Descent Optimizes Over-paramet.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/TEAXQ9KE/1811.html:text/html}
+}
+
+@phdthesis{opschoor_relu_2018,
+	title = {{ReLU} {DNN} expression of sparse gpc expansion in uncertainty quantification},
+	language = {en},
+	author = {Opschoor, Joost Aart Adriaan},
+	year = {2018},
+	keywords = {deep learning, theoretical understanding, thesis},
+	file = {Opschoor - Master of Science ETH in Mathematics ETH Zu¨rich.pdf:/Users/arthur/Documents/Zotero/storage/7MM7GAJI/Opschoor - Master of Science ETH in Mathematics ETH Zu¨rich.pdf:application/pdf}
+}
+
+@article{ozbulak_how_2018,
+	title = {How the {Softmax} {Output} is {Misleading} for {Evaluating} the {Strength} of {Adversarial} {Examples}},
+	url = {http://arxiv.org/abs/1811.08577},
+	abstract = {Even before deep learning architectures became the de facto models for complex computer vision tasks, the softmax function was, given its elegant properties, already used to analyze the predictions of feedforward neural networks. Nowadays, the output of the softmax function is also commonly used to assess the strength of adversarial examples: malicious data points designed to fail machine learning models during the testing phase. However, in this paper, we show that it is possible to generate adversarial examples that take advantage of some properties of the softmax function, leading to undesired outcomes when interpreting the strength of the adversarial examples at hand. Specifically, we argue that the output of the softmax function is a poor indicator when the strength of an adversarial example is analyzed and that this indicator can be easily tricked by already existing methods for adversarial example generation.},
+	urldate = {2018-11-27},
+	journal = {arXiv:1811.08577 [cs, stat]},
+	author = {Ozbulak, Utku and De Neve, Wesley and Van Messem, Arnout},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.08577},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, adversarial examples, softmax},
+	file = {arXiv\:1811.08577 PDF:/Users/arthur/Documents/Zotero/storage/7LTQGCKZ/Ozbulak et al. - 2018 - How the Softmax Output is Misleading for Evaluatin.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/T24TX66M/1811.html:text/html}
+}
+
+@article{greff_lstm:_2017,
+	title = {{LSTM}: {A} {Search} {Space} {Odyssey}},
+	volume = {28},
+	issn = {2162-237X, 2162-2388},
+	shorttitle = {{LSTM}},
+	url = {http://arxiv.org/abs/1503.04069},
+	doi = {10.1109/TNNLS.2016.2582924},
+	abstract = {Several variants of the Long Short-Term Memory (LSTM) architecture for recurrent neural networks have been proposed since its inception in 1995. In recent years, these networks have become the state-of-the-art models for a variety of machine learning problems. This has led to a renewed interest in understanding the role and utility of various computational components of typical LSTM variants. In this paper, we present the first large-scale analysis of eight LSTM variants on three representative tasks: speech recognition, handwriting recognition, and polyphonic music modeling. The hyperparameters of all LSTM variants for each task were optimized separately using random search, and their importance was assessed using the powerful fANOVA framework. In total, we summarize the results of 5400 experimental runs (\${\textbackslash}approx 15\$ years of CPU time), which makes our study the largest of its kind on LSTM networks. Our results show that none of the variants can improve upon the standard LSTM architecture significantly, and demonstrate the forget gate and the output activation function to be its most critical components. We further observe that the studied hyperparameters are virtually independent and derive guidelines for their efficient adjustment.},
+	number = {10},
+	urldate = {2018-11-28},
+	journal = {IEEE Transactions on Neural Networks and Learning Systems},
+	author = {Greff, Klaus and Srivastava, Rupesh Kumar and Koutník, Jan and Steunebrink, Bas R. and Schmidhuber, Jürgen},
+	month = oct,
+	year = {2017},
+	note = {arXiv: 1503.04069},
+	keywords = {Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, 68T10, H.5.5, I.2.6, I.2.7, I.5.1, LSTM},
+	pages = {2222--2232},
+	file = {arXiv\:1503.04069 PDF:/Users/arthur/Documents/Zotero/storage/V8PZTK99/Greff et al. - 2017 - LSTM A Search Space Odyssey.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/CWBZMR9Z/1503.html:text/html}
+}
+
+@misc{noauthor_understanding_nodate,
+	title = {Understanding {LSTM} {Networks} -- colah's blog},
+	url = {http://colah.github.io/posts/2015-08-Understanding-LSTMs/},
+	urldate = {2018-11-28},
+	keywords = {deep learning, ****, LSTM, GRU},
+	file = {GRU and other variants.png:/Users/arthur/Documents/Zotero/storage/LZHMBS2H/GRU and other variants.png:image/png;The repeating module in an LSTM.png:/Users/arthur/Documents/Zotero/storage/U728VUAW/The repeating module in an LSTM.png:image/png;Understanding LSTM Networks -- colah's blog:/Users/arthur/Documents/Zotero/storage/587JML37/2015-08-Understanding-LSTMs.html:text/html}
+}
+
+@article{chung_empirical_2014,
+	title = {Empirical {Evaluation} of {Gated} {Recurrent} {Neural} {Networks} on {Sequence} {Modeling}},
+	url = {http://arxiv.org/abs/1412.3555},
+	abstract = {In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1412.3555 [cs]},
+	author = {Chung, Junyoung and Gulcehre, Caglar and Cho, KyungHyun and Bengio, Yoshua},
+	month = dec,
+	year = {2014},
+	note = {arXiv: 1412.3555},
+	keywords = {Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, LSTM, GRU},
+	file = {arXiv\:1412.3555 PDF:/Users/arthur/Documents/Zotero/storage/JM7U8UTY/Chung et al. - 2014 - Empirical Evaluation of Gated Recurrent Neural Net.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/QWQP42UY/1412.html:text/html}
+}
+
+@article{ba_layer_2016,
+	title = {Layer {Normalization}},
+	url = {http://arxiv.org/abs/1607.06450},
+	abstract = {Training state-of-the-art, deep neural networks is computationally expensive. One way to reduce the training time is to normalize the activities of the neurons. A recently introduced technique called batch normalization uses the distribution of the summed input to a neuron over a mini-batch of training cases to compute a mean and variance which are then used to normalize the summed input to that neuron on each training case. This significantly reduces the training time in feed-forward neural networks. However, the effect of batch normalization is dependent on the mini-batch size and it is not obvious how to apply it to recurrent neural networks. In this paper, we transpose batch normalization into layer normalization by computing the mean and variance used for normalization from all of the summed inputs to the neurons in a layer on a single training case. Like batch normalization, we also give each neuron its own adaptive bias and gain which are applied after the normalization but before the non-linearity. Unlike batch normalization, layer normalization performs exactly the same computation at training and test times. It is also straightforward to apply to recurrent neural networks by computing the normalization statistics separately at each time step. Layer normalization is very effective at stabilizing the hidden state dynamics in recurrent networks. Empirically, we show that layer normalization can substantially reduce the training time compared with previously published techniques.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1607.06450 [cs, stat]},
+	author = {Ba, Jimmy Lei and Kiros, Jamie Ryan and Hinton, Geoffrey E.},
+	month = jul,
+	year = {2016},
+	note = {arXiv: 1607.06450},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, deep learning, normalization},
+	file = {arXiv\:1607.06450 PDF:/Users/arthur/Documents/Zotero/storage/YWXKV7E8/Ba et al. - 2016 - Layer Normalization.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/8F6PXQI9/1607.html:text/html}
+}
+
+@article{salimans_weight_2016,
+	title = {Weight {Normalization}: {A} {Simple} {Reparameterization} to {Accelerate} {Training} of {Deep} {Neural} {Networks}},
+	shorttitle = {Weight {Normalization}},
+	url = {http://arxiv.org/abs/1602.07868},
+	abstract = {We present weight normalization: a reparameterization of the weight vectors in a neural network that decouples the length of those weight vectors from their direction. By reparameterizing the weights in this way we improve the conditioning of the optimization problem and we speed up convergence of stochastic gradient descent. Our reparameterization is inspired by batch normalization but does not introduce any dependencies between the examples in a minibatch. This means that our method can also be applied successfully to recurrent models such as LSTMs and to noise-sensitive applications such as deep reinforcement learning or generative models, for which batch normalization is less well suited. Although our method is much simpler, it still provides much of the speed-up of full batch normalization. In addition, the computational overhead of our method is lower, permitting more optimization steps to be taken in the same amount of time. We demonstrate the usefulness of our method on applications in supervised image recognition, generative modelling, and deep reinforcement learning.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1602.07868 [cs]},
+	author = {Salimans, Tim and Kingma, Diederik P.},
+	month = feb,
+	year = {2016},
+	note = {arXiv: 1602.07868},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Neural and Evolutionary Computing, deep learning, normalization},
+	file = {arXiv\:1602.07868 PDF:/Users/arthur/Documents/Zotero/storage/X8A9PT3T/Salimans and Kingma - 2016 - Weight Normalization A Simple Reparameterization .pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/LS9RE3QC/1602.html:text/html}
+}
+
+@article{ioffe_batch_2015,
+	title = {Batch {Normalization}: {Accelerating} {Deep} {Network} {Training} by {Reducing} {Internal} {Covariate} {Shift}},
+	shorttitle = {Batch {Normalization}},
+	url = {http://arxiv.org/abs/1502.03167},
+	abstract = {Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift, and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch. Batch Normalization allows us to use much higher learning rates and be less careful about initialization. It also acts as a regularizer, in some cases eliminating the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.9\% top-5 validation error (and 4.8\% test error), exceeding the accuracy of human raters.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1502.03167 [cs]},
+	author = {Ioffe, Sergey and Szegedy, Christian},
+	month = feb,
+	year = {2015},
+	note = {arXiv: 1502.03167},
+	keywords = {Computer Science - Machine Learning, deep learning, normalization},
+	file = {arXiv\:1502.03167 PDF:/Users/arthur/Documents/Zotero/storage/5PBMEH2M/Ioffe and Szegedy - 2015 - Batch Normalization Accelerating Deep Network Tra.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/UTV2FBND/1502.html:text/html}
+}
+
+@misc{noauthor_long_nodate,
+	title = {A ({Long}) {Peek} into {Reinforcement} {Learning}},
+	url = {https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html},
+	urldate = {2018-11-28},
+	keywords = {reinforcement learning},
+	file = {A (Long) Peek into Reinforcement Learning:/Users/arthur/Documents/Zotero/storage/TT9CE2KP/a-long-peek-into-reinforcement-learning.html:text/html}
+}
+
+@phdthesis{schulman_optimizing_nodate,
+	title = {Optimizing {Expecations}: {From} {Deep} {Reinforcement} {Learning} to {Stochastic} {Computation} {Graphs}},
+	url = {http://joschu.net/docs/thesis.pdf},
+	abstract = {This thesis is mostly focused on reinforcement learning, which is viewed as an optimization
+problem: maximize the expected total reward with respect to the parameters
+of the policy. The first part of the thesis is concerned with making policy gradient methods
+more sample-efficient and reliable, especially when used with expressive nonlinear
+function approximators such as neural networks. Chapter 3 considers how to ensure
+that policy updates lead to monotonic improvement, and how to optimally update a
+policy given a batch of sampled trajectories. After providing a theoretical analysis, we
+propose a practical method called trust region policy optimization (TRPO), which performs
+well on two challenging tasks: simulated robotic locomotion, and playing Atari games
+using screen images as input. Chapter 4 looks at improving sample complexity of policy
+gradient methods in a way that is complementary to TRPO: reducing the variance
+of policy gradient estimates using a state-value function. Using this method, we obtain
+state-of-the-art results for learning locomotion controllers for simulated 3D robots.
+Reinforcement learning can be viewed as a special case of optimizing an expectation,
+and similar optimization problems arise in other areas of machine learning; for example,
+in variational inference, and when using architectures that include mechanisms for
+memory and attention. Chapter 5 provides a unifying view of these problems, with a
+general calculus for obtaining gradient estimators of objectives that involve a mixture of
+sampled random variables and differentiable operations. This unifying view motivates
+applying algorithms from reinforcement learning to other prediction and probabilistic
+modeling problems.},
+	urldate = {2018-11-28},
+	school = {University of California, Berkeley},
+	author = {Schulman, John},
+	file = {thesis.pdf:/Users/arthur/Documents/Zotero/storage/DKDQUCLD/thesis.pdf:application/pdf}
+}
+
+@misc{achiam_spinning_2018-1,
+	title = {Spinning {Up} as a {Deep} {RL} {Researcher}},
+	url = {https://spinningup.openai.com/en/latest/spinningup/spinningup.html#},
+	language = {en},
+	author = {Achiam, Josh},
+	month = oct,
+	year = {2018},
+	keywords = {research, work, deepRL}
+}
+
+@misc{noauthor_tim_nodate,
+	title = {Tim {Rocktäschel}},
+	url = {https://rockt.github.io/2018/08/29/msc-advice},
+	urldate = {2018-11-28},
+	keywords = {research, work},
+	file = {Tim Rocktäschel:/Users/arthur/Documents/Zotero/storage/I9DS344M/msc-advice.html:text/html}
+}
+
+@article{silver_mastering_2017-1,
+	title = {Mastering {Chess} and {Shogi} by {Self}-{Play} with a {General} {Reinforcement} {Learning} {Algorithm}},
+	url = {http://arxiv.org/abs/1712.01815},
+	abstract = {The game of chess is the most widely-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. In contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go, by tabula rasa reinforcement learning from games of self-play. In this paper, we generalise this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in many challenging domains. Starting from random play, and given no domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman level of play in the games of chess and shogi (Japanese chess) as well as Go, and convincingly defeated a world-champion program in each case.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1712.01815 [cs]},
+	author = {Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen and Hassabis, Demis},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1712.01815},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, deepRL},
+	file = {arXiv\:1712.01815 PDF:/Users/arthur/Documents/Zotero/storage/I3NA95JB/Silver et al. - 2017 - Mastering Chess and Shogi by Self-Play with a Gene.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/YAS7K8TY/1712.html:text/html}
+}
+
+@article{schulman_equivalence_2017,
+	title = {Equivalence {Between} {Policy} {Gradients} and {Soft} {Q}-{Learning}},
+	url = {http://arxiv.org/abs/1704.06440},
+	abstract = {Two of the leading approaches for model-free reinforcement learning are policy gradient methods and \$Q\$-learning methods. \$Q\$-learning methods can be effective and sample-efficient when they work, however, it is not well-understood why they work, since empirically, the \$Q\$-values they estimate are very inaccurate. A partial explanation may be that \$Q\$-learning methods are secretly implementing policy gradient updates: we show that there is a precise equivalence between \$Q\$-learning and policy gradient methods in the setting of entropy-regularized reinforcement learning, that "soft" (entropy-regularized) \$Q\$-learning is exactly equivalent to a policy gradient method. We also point out a connection between \$Q\$-learning methods and natural policy gradient methods. Experimentally, we explore the entropy-regularized versions of \$Q\$-learning and policy gradients, and we find them to perform as well as (or slightly better than) the standard variants on the Atari benchmark. We also show that the equivalence holds in practical settings by constructing a \$Q\$-learning method that closely matches the learning dynamics of A3C without using a target network or \${\textbackslash}epsilon\$-greedy exploration schedule.},
+	urldate = {2018-11-28},
+	journal = {arXiv:1704.06440 [cs]},
+	author = {Schulman, John and Chen, Xi and Abbeel, Pieter},
+	month = apr,
+	year = {2017},
+	note = {arXiv: 1704.06440},
+	keywords = {Computer Science - Machine Learning, deepRL},
+	file = {arXiv\:1704.06440 PDF:/Users/arthur/Documents/Zotero/storage/77BPB3QV/Schulman et al. - 2017 - Equivalence Between Policy Gradients and Soft Q-Le.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/FHDN84QM/1704.html:text/html}
+}
+
+@misc{noauthor_home_nodate,
+	title = {Home},
+	url = {https://sites.google.com/view/mbmf},
+	language = {en-US},
+	urldate = {2018-11-28},
+	keywords = {deepRL},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/JSR9G2FJ/mbmf.html:text/html}
+}
+
+@article{nagabandi_neural_2017,
+	title = {Neural {Network} {Dynamics} for {Model}-{Based} {Deep} {Reinforcement} {Learning} with {Model}-{Free} {Fine}-{Tuning}},
+	url = {http://arxiv.org/abs/1708.02596},
+	abstract = {Model-free deep reinforcement learning algorithms have been shown to be capable of learning a wide range of robotic skills, but typically require a very large number of samples to achieve good performance. Model-based algorithms, in principle, can provide for much more efficient learning, but have proven difficult to extend to expressive, high-capacity models such as deep neural networks. In this work, we demonstrate that medium-sized neural network models can in fact be combined with model predictive control (MPC) to achieve excellent sample complexity in a model-based reinforcement learning algorithm, producing stable and plausible gaits to accomplish various complex locomotion tasks. We also propose using deep neural network dynamics models to initialize a model-free learner, in order to combine the sample efficiency of model-based approaches with the high task-specific performance of model-free methods. We empirically demonstrate on MuJoCo locomotion tasks that our pure model-based approach trained on just random action data can follow arbitrary trajectories with excellent sample efficiency, and that our hybrid algorithm can accelerate model-free learning on high-speed benchmark tasks, achieving sample efficiency gains of 3-5x on swimmer, cheetah, hopper, and ant agents. Videos can be found at https://sites.google.com/view/mbmf},
+	urldate = {2018-11-28},
+	journal = {arXiv:1708.02596 [cs]},
+	author = {Nagabandi, Anusha and Kahn, Gregory and Fearing, Ronald S. and Levine, Sergey},
+	month = aug,
+	year = {2017},
+	note = {arXiv: 1708.02596},
+	keywords = {Computer Science - Machine Learning, Computer Science - Artificial Intelligence, deepRL, Computer Science - Robotics},
+	file = {arXiv\:1708.02596 PDF:/Users/arthur/Documents/Zotero/storage/CUEBSA52/Nagabandi et al. - 2017 - Neural Network Dynamics for Model-Based Deep Reinf.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/YFEDHBEU/1708.html:text/html}
+}
+
+@article{ha_recurrent_2018,
+	title = {Recurrent {World} {Models} {Facilitate} {Policy} {Evolution}},
+	url = {http://arxiv.org/abs/1809.01999},
+	abstract = {A generative recurrent neural network is quickly trained in an unsupervised manner to model popular reinforcement learning environments through compressed spatio-temporal representations. The world model's extracted features are fed into compact and simple policies trained by evolution, achieving state of the art results in various environments. We also train our agent entirely inside of an environment generated by its own internal world model, and transfer this policy back into the actual environment. Interactive version of paper at https://worldmodels.github.io},
+	urldate = {2018-11-28},
+	journal = {arXiv:1809.01999 [cs, stat]},
+	author = {Ha, David and Schmidhuber, Jürgen},
+	month = sep,
+	year = {2018},
+	note = {arXiv: 1809.01999},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, deepRL},
+	file = {arXiv\:1809.01999 PDF:/Users/arthur/Documents/Zotero/storage/PEQJUUQ4/Ha and Schmidhuber - 2018 - Recurrent World Models Facilitate Policy Evolution.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/WJCF7V58/1809.html:text/html}
+}
+
+@article{ha_world_2018,
+	title = {World {Models}},
+	url = {http://arxiv.org/abs/1803.10122},
+	doi = {10.5281/zenodo.1207631},
+	abstract = {We explore building generative neural network models of popular reinforcement learning environments. Our world model can be trained quickly in an unsupervised manner to learn a compressed spatial and temporal representation of the environment. By using features extracted from the world model as inputs to an agent, we can train a very compact and simple policy that can solve the required task. We can even train our agent entirely inside of its own hallucinated dream generated by its world model, and transfer this policy back into the actual environment. An interactive version of this paper is available at https://worldmodels.github.io/},
+	urldate = {2018-11-28},
+	journal = {arXiv:1803.10122 [cs, stat]},
+	author = {Ha, David and Schmidhuber, Jürgen},
+	month = mar,
+	year = {2018},
+	note = {arXiv: 1803.10122},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, deepRL, world modeling},
+	file = {arXiv\:1803.10122 PDF:/Users/arthur/Documents/Zotero/storage/8A4WY9BK/Ha and Schmidhuber - 2018 - World Models.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/U53NDG3A/1803.html:text/html;Full Text PDF:/Users/arthur/Documents/Zotero/storage/KISTSQYF/Ha and Schmidhuber - 2018 - World Models.pdf:application/pdf;Snapshot:/Users/arthur/Documents/Zotero/storage/AEPADKDL/worldmodels.github.io.html:text/html}
+}
+
+@misc{achiam_taxonomy_nodate,
+	title = {A {Taxonomy} of {RL} {Algorithms}},
+	url = {https://spinningup.openai.com/en/latest/spinningup/rl_intro2.html#a-taxonomy-of-rl-algorithms},
+	author = {Achiam, Josh},
+	keywords = {deepRL, *****}
+}
+
+@misc{reddit_deep_nodate,
+	title = {Deep {Reinforcement} {Learning} {Implementations}},
+	url = {https://www.reddit.com/r/reinforcementlearning/comments/a16o4h/d_main_deep_reinforcement_learning_implementations/},
+	author = {reddit},
+	keywords = {deepRL, ****, code, repository}
+}
+
+@misc{noauthor_welcome_nodate-1,
+	title = {Welcome to {Stable} {Baselines} docs! - {RL} {Baselines} {Made} {Easy} — {Stable} {Baselines} 2.2.2a documentation},
+	url = {https://stable-baselines.readthedocs.io/en/master/},
+	urldate = {2018-11-29},
+	keywords = {deepRL, code},
+	file = {Welcome to Stable Baselines docs! - RL Baselines Made Easy — Stable Baselines 2.2.2a documentation:/Users/arthur/Documents/Zotero/storage/DSAEBHEC/master.html:text/html}
+}
+
+@incollection{alvarez_melis_towards_2018,
+	title = {Towards {Robust} {Interpretability} with {Self}-{Explaining} {Neural} {Networks}},
+	url = {http://papers.nips.cc/paper/8003-towards-robust-interpretability-with-self-explaining-neural-networks.pdf},
+	urldate = {2018-11-29},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 31},
+	publisher = {Curran Associates, Inc.},
+	author = {Alvarez Melis, David and Jaakkola, Tommi},
+	editor = {Bengio, S. and Wallach, H. and Larochelle, H. and Grauman, K. and Cesa-Bianchi, N. and Garnett, R.},
+	year = {2018},
+	keywords = {interpretability},
+	pages = {7785--7794},
+	file = {NIPS Full Text PDF:/Users/arthur/Documents/Zotero/storage/C93TMGQU/Alvarez Melis and Jaakkola - 2018 - Towards Robust Interpretability with Self-Explaini.pdf:application/pdf;NIPS Snapshot:/Users/arthur/Documents/Zotero/storage/HGA3ZWTX/8003-towards-robust-interpretability-with-self-explaining-neural-networks.html:text/html}
+}
+
+@incollection{olson_modern_2018,
+	title = {Modern {Neural} {Networks} {Generalize} on {Small} {Data} {Sets}},
+	url = {http://papers.nips.cc/paper/7620-modern-neural-networks-generalize-on-small-data-sets.pdf},
+	urldate = {2018-11-29},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 31},
+	publisher = {Curran Associates, Inc.},
+	author = {Olson, Matthew and Wyner, Abraham and Berk, Richard},
+	editor = {Bengio, S. and Wallach, H. and Larochelle, H. and Grauman, K. and Cesa-Bianchi, N. and Garnett, R.},
+	year = {2018},
+	keywords = {generalization},
+	pages = {3623--3632},
+	file = {NIPS Full Text PDF:/Users/arthur/Documents/Zotero/storage/RBNVM6V7/Olson et al. - 2018 - Modern Neural Networks Generalize on Small Data Se.pdf:application/pdf;NIPS Snapshot:/Users/arthur/Documents/Zotero/storage/C3K2GWL3/7620-modern-neural-networks-generalize-on-small-data-sets.html:text/html}
+}
+
+@incollection{feizi_porcupine_2018,
+	title = {Porcupine {Neural} {Networks}: {Approximating} {Neural} {Network} {Landscapes}},
+	shorttitle = {Porcupine {Neural} {Networks}},
+	url = {http://papers.nips.cc/paper/7732-porcupine-neural-networks-approximating-neural-network-landscapes.pdf},
+	urldate = {2018-11-29},
+	booktitle = {Advances in {Neural} {Information} {Processing} {Systems} 31},
+	publisher = {Curran Associates, Inc.},
+	author = {Feizi, Soheil and Javadi, Hamid and Zhang, Jesse and Tse, David},
+	editor = {Bengio, S. and Wallach, H. and Larochelle, H. and Grauman, K. and Cesa-Bianchi, N. and Garnett, R.},
+	year = {2018},
+	keywords = {deep learning},
+	pages = {4832--4842},
+	file = {NIPS Full Text PDF:/Users/arthur/Documents/Zotero/storage/8JNW8TVF/Feizi et al. - 2018 - Porcupine Neural Networks Approximating Neural Ne.pdf:application/pdf;NIPS Snapshot:/Users/arthur/Documents/Zotero/storage/CICT4KA8/7732-porcupine-neural-networks-approximating-neural-network-landscapes.html:text/html}
+}
+
+@article{cai_enhanced_2018,
+	title = {Enhanced {Expressive} {Power} and {Fast} {Training} of {Neural} {Networks} by {Random} {Projections}},
+	url = {http://arxiv.org/abs/1811.09054},
+	abstract = {Random projections are able to perform dimension reduction efficiently for datasets with nonlinear low-dimensional structures. One well-known example is that random matrices embed sparse vectors into a low-dimensional subspace nearly isometrically, known as the restricted isometric property in compressed sensing. In this paper, we explore some applications of random projections in deep neural networks. We provide the expressive power of fully connected neural networks when the input data are sparse vectors or form a low-dimensional smooth manifold. We prove that the number of neurons required for approximating a Lipschitz function with a prescribed precision depends on the sparsity or the dimension of the manifold and weakly on the dimension of the input vector. The key in our proof is that random projections embed stably the set of sparse vectors or a low-dimensional smooth manifold into a low-dimensional subspace. Based on this fact, we also propose some new neural network models, where at each layer the input is first projected onto a low-dimensional subspace by a random projection and then the standard linear connection and non-linear activation are applied. In this way, the number of parameters in neural networks is significantly reduced, and therefore the training of neural networks can be accelerated without too much performance loss.},
+	urldate = {2018-12-04},
+	journal = {arXiv:1811.09054 [cs, stat]},
+	author = {Cai, Jian-Feng and Li, Dong and Sun, Jiaze and Wang, Ke},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.09054},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, theoretical understanding, compressed sensing},
+	file = {arXiv\:1811.09054 PDF:/Users/arthur/Documents/Zotero/storage/9JNCGHRM/Cai et al. - 2018 - Enhanced Expressive Power and Fast Training of Neu.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/89AAQFQ7/1811.html:text/html}
+}
+
+@article{bau_gan_2018,
+	title = {{GAN} {Dissection}: {Visualizing} and {Understanding} {Generative} {Adversarial} {Networks}},
+	shorttitle = {{GAN} {Dissection}},
+	url = {http://arxiv.org/abs/1811.10597},
+	abstract = {Generative Adversarial Networks (GANs) have recently achieved impressive results for many real-world applications, and many GAN variants have emerged with improvements in sample quality and training stability. However, visualization and understanding of GANs is largely missing. How does a GAN represent our visual world internally? What causes the artifacts in GAN results? How do architectural choices affect GAN learning? Answering such questions could enable us to develop new insights and better models. In this work, we present an analytic framework to visualize and understand GANs at the unit-, object-, and scene-level. We first identify a group of interpretable units that are closely related to object concepts with a segmentation-based network dissection method. Then, we quantify the causal effect of interpretable units by measuring the ability of interventions to control objects in the output. Finally, we examine the contextual relationship between these units and their surrounding by inserting the discovered object concepts into new images. We show several practical applications enabled by our framework, from comparing internal representations across different layers, models, and datasets, to improving GANs by locating and removing artifact-causing units, to interactively manipulating objects in the scene. We provide open source interpretation tools to help peer researchers and practitioners better understand their GAN models.},
+	urldate = {2018-12-04},
+	journal = {arXiv:1811.10597 [cs]},
+	author = {Bau, David and Zhu, Jun-Yan and Strobelt, Hendrik and Zhou, Bolei and Tenenbaum, Joshua B. and Freeman, William T. and Torralba, Antonio},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.10597},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Artificial Intelligence, interpretability, Computer Science - Graphics, GAN},
+	file = {arXiv\:1811.10597 PDF:/Users/arthur/Documents/Zotero/storage/23JYZAS6/Bau et al. - 2018 - GAN Dissection Visualizing and Understanding Gene.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/U77WXP68/1811.html:text/html}
+}
+
+@misc{cotra_iterated_nodate,
+	title = {Iterated {Distillation} and {Amplification} - {AI} {Alignment} {Forum}},
+	url = {https://www.alignmentforum.org/posts/HqLxuZ4LhaFhmAHWk/iterated-distillation-and-amplification},
+	abstract = {This is a guest post summarizing Paul Christiano’s proposed scheme for training
+machine learning systems that can be robustly aligned to complex and fuzzy
+values, which I call Iterated Distillation and Amplification (IDA) here. IDA is 
+notably similar
+[https://ai-alignment.com/alphago-zero-and-capability-amplification-ede767bb8446] 
+to AlphaGoZero [https://www.nature.com/articles/nature24270] and expert
+iteration [https://arxiv.org/abs/1705.08439].
+
+The hope is that if we use IDA to train each learned component of an AI then the
+overall AI will remain aligned with the user’s interests while achieving state
+of the art performance at runtime — provided that any... (Read more)},
+	urldate = {2018-12-04},
+	author = {Cotra, Ajeya},
+	keywords = {reinforcement learning, alignment},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/EQVYP6FL/HqLxuZ4LhaFhmAHWk.html:text/html}
+}
+
+@misc{olah_attention_nodate,
+	title = {Attention and {Augmented} {Recurrent} {Neural} {Networks}},
+	url = {https://distill.pub/2016/augmented-rnns/},
+	abstract = {Recurrent neural networks are one of the staples of deep learning, allowing neural networks to work with sequences of data like text, audio and video. They can be used to boil a sequence down into a high-level understanding, to annotate sequences, and even to generate new sequences from scratch!},
+	journal = {Distill},
+	author = {Olah, Chris and Carter, Shan},
+	keywords = {bibliography, ****, code, attention mechanisms}
+}
+
+@article{xu_show_2015,
+	title = {Show, {Attend} and {Tell}: {Neural} {Image} {Caption} {Generation} with {Visual} {Attention}},
+	shorttitle = {Show, {Attend} and {Tell}},
+	url = {http://arxiv.org/abs/1502.03044},
+	abstract = {Inspired by recent work in machine translation and object detection, we introduce an attention based model that automatically learns to describe the content of images. We describe how we can train this model in a deterministic manner using standard backpropagation techniques and stochastically by maximizing a variational lower bound. We also show through visualization how the model is able to automatically learn to fix its gaze on salient objects while generating the corresponding words in the output sequence. We validate the use of attention with state-of-the-art performance on three benchmark datasets: Flickr8k, Flickr30k and MS COCO.},
+	urldate = {2018-12-04},
+	journal = {arXiv:1502.03044 [cs]},
+	author = {Xu, Kelvin and Ba, Jimmy and Kiros, Ryan and Cho, Kyunghyun and Courville, Aaron and Salakhutdinov, Ruslan and Zemel, Richard and Bengio, Yoshua},
+	month = feb,
+	year = {2015},
+	note = {arXiv: 1502.03044},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, attention mechanisms},
+	file = {arXiv\:1502.03044 PDF:/Users/arthur/Documents/Zotero/storage/V6WC5N47/Xu et al. - 2015 - Show, Attend and Tell Neural Image Caption Genera.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/NGC3JB6F/1502.html:text/html}
+}
+
+@article{vaswani_attention_2017,
+	title = {Attention {Is} {All} {You} {Need}},
+	url = {http://arxiv.org/abs/1706.03762},
+	abstract = {The dominant sequence transduction models are based on complex recurrent or convolutional neural networks in an encoder-decoder configuration. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring significantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 English-to-German translation task, improving over the existing best results, including ensembles by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.8 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature. We show that the Transformer generalizes well to other tasks by applying it successfully to English constituency parsing both with large and limited training data.},
+	urldate = {2018-12-04},
+	journal = {arXiv:1706.03762 [cs]},
+	author = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
+	month = jun,
+	year = {2017},
+	note = {arXiv: 1706.03762},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computation and Language, attention mechanisms, transformer},
+	file = {arXiv\:1706.03762 PDF:/Users/arthur/Documents/Zotero/storage/3NIPZX34/Vaswani et al. - 2017 - Attention Is All You Need.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/JYQDVX9E/1706.html:text/html}
+}
+
+@misc{alammar_illustrated_nodate,
+	title = {The {Illustrated} {Transformer}},
+	url = {https://jalammar.github.io/illustrated-transformer/},
+	author = {Alammar, Jay},
+	keywords = {attention mechanisms}
+}
+
+@misc{culurciello_fall_nodate,
+	title = {The fall of {RNN} / {LSTM}},
+	url = {https://towardsdatascience.com/the-fall-of-rnn-lstm-2d1594c74ce0},
+	abstract = {We fell for Recurrent neural networks (RNN), Long-short term memory (LSTM), and all their variants. Now it is time to drop them!},
+	author = {Culurciello, Eugenio},
+	keywords = {***, attention mechanisms}
+}
+
+@misc{karpathy_unreasonable_nodate,
+	title = {The {Unreasonable} {Effectiveness} of {Recurrent} {Neural} {Networks}},
+	url = {http://karpathy.github.io/2015/05/21/rnn-effectiveness/},
+	urldate = {2018-12-05},
+	author = {Karpathy, Andreij},
+	keywords = {***, RNN},
+	file = {The Unreasonable Effectiveness of Recurrent Neural Networks:/Users/arthur/Documents/Zotero/storage/5BW2UVJN/rnn-effectiveness.html:text/html}
+}
+
+@article{schmidhuber_long_nodate,
+	title = {Long {Short} {Term} {Memory}},
+	url = {http://www.bioinf.jku.at/publications/older/2604.pdf},
+	abstract = {Learning to store information over extended time intervals via recurrent backpropagation
+takes a very long time, mostly due to insuficient, decaying error back ow. We briey review
+Hochreiter's 1991 analysis of this problem, then address it by introducing a novel, efficient,
+gradient-based method called {\textbackslash}Long Short-Term Memory" (LSTM). Truncating the gradient
+where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000
+discrete time steps by enforcing constant error ow through {\textbackslash}constant error carrousels" within
+special units. Multiplicative gate units learn to open and close access to the constant error
+ow. LSTM is local in space and time; its computational complexity per time step and weight
+is O(1). Our experiments with artificial data involve local, distributed, real-valued, and noisy
+pattern representations. In comparisons with RTRL, BPTT, Recurrent Cascade-Correlation,
+Elman nets, and Neural Sequence Chunking, LSTM leads to many more successful runs, and
+learns much faster. LSTM also solves complex, artificial long time lag tasks that have never
+been solved by previous recurrent network algorithms.},
+	urldate = {2018-12-05},
+	author = {Schmidhuber, Jürgen and Hochreiter, Sepp},
+	file = {Long Short Term Memory:/Users/arthur/Documents/Zotero/storage/5FUKCYNP/2604.pdf:application/pdf}
+}
+
+@article{jozefowicz_empirical_2015,
+	title = {An {Empirical} {Exploration} of {Recurrent} {Network} {Architectures}},
+	url = {http://www.arxiv.org/pdf/1702.00832.pdf},
+	abstract = {The Recurrent Neural Network (RNN) is an extremely
+powerful sequence model that is often
+difficult to train. The Long Short-Term Memory
+(LSTM) is a specific RNN architecture whose
+design makes it much easier to train. While
+wildly successful in practice, the LSTM’s architecture
+appears to be ad-hoc so it is not clear if it
+is optimal, and the significance of its individual
+components is unclear.
+In this work, we aim to determine whether the
+LSTM architecture is optimal or whether much
+better architectures exist. We conducted a thorough
+architecture search where we evaluated
+over ten thousand different RNN architectures,
+and identified an architecture that outperforms
+both the LSTM and the recently-introduced
+Gated Recurrent Unit (GRU) on some but not all
+tasks. We found that adding a bias of 1 to the
+LSTM’s forget gate closes the gap between the
+LSTM and the GRU.},
+	urldate = {2018-11-23},
+	journal = {Proceedings of the 32 nd International Conference on Machine Learning},
+	author = {Jozefowicz, Rafal and Zaremba, Wojciech and Sutskever, Ilya},
+	year = {2015},
+	keywords = {LSTM, GRU, RNN},
+	file = {arXiv\:1702.00832 PDF:/Users/arthur/Documents/Zotero/storage/F7BW9J6C/O'Shea and Hoydis - 2017 - An Introduction to Deep Learning for the Physical .pdf:application/pdf;Jozefowicz et al. - An Empirical Exploration of Recurrent Network Arch.pdf:/Users/arthur/Documents/Zotero/storage/T8WPC5YU/Jozefowicz et al. - An Empirical Exploration of Recurrent Network Arch.pdf:application/pdf}
+}
+
+@misc{reddit_what_nodate,
+	title = {What are the must read papers for a beginner in the field of {Machine} {Learning} and {Artificial} {Intelligence}?},
+	url = {https://www.reddit.com/r/MachineLearning/comments/a21d0q/what_are_the_must_read_papers_for_a_beginner_in/eaur59j/},
+	author = {reddit},
+	keywords = {deep learning, bibliography, machine learning}
+}
+
+@article{verma_manifold_2018,
+	title = {Manifold {Mixup}: {Learning} {Better} {Representations} by {Interpolating} {Hidden} {States}},
+	shorttitle = {Manifold {Mixup}},
+	url = {http://arxiv.org/abs/1806.05236},
+	abstract = {Deep networks often perform well on the data distribution on which they are trained, yet give incorrect (and often very confident) answers when evaluated on points from off of the training distribution. This is exemplified by the adversarial examples phenomenon but can also be seen in terms of model generalization and domain shift. Ideally, a model would assign lower confidence to points unlike those from the training distribution. We propose a regularizer which addresses this issue by training with interpolated hidden states and encouraging the classifier to be less confident at these points. Because the hidden states are learned, this has an important effect of encouraging the hidden states for a class to be concentrated in such a way so that interpolations within the same class or between two different classes do not intersect with the real data points from other classes. This has a major advantage in that it avoids the underfitting which can result from interpolating in the input space. We prove that the exact condition for this problem of underfitting to be avoided by Manifold Mixup is that the dimensionality of the hidden states exceeds the number of classes, which is often the case in practice. Additionally, this concentration can be seen as making the features in earlier layers more discriminative. We show that despite requiring no significant additional computation, Manifold Mixup achieves large improvements over strong baselines in supervised learning, robustness to single-step adversarial attacks, semi-supervised learning, and Negative Log-Likelihood on held out samples.},
+	urldate = {2018-12-05},
+	journal = {arXiv:1806.05236 [cs, stat]},
+	author = {Verma, Vikas and Lamb, Alex and Beckham, Christopher and Najafi, Amir and Courville, Aaron and Mitliagkas, Ioannis and Bengio, Yoshua},
+	month = jun,
+	year = {2018},
+	note = {arXiv: 1806.05236},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Neural and Evolutionary Computing, generalization},
+	file = {arXiv\:1806.05236 PDF:/Users/arthur/Documents/Zotero/storage/3SKIQ6M7/Verma et al. - 2018 - Manifold Mixup Learning Better Representations by.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/U9JTSHS9/1806.html:text/html}
+}
+
+@article{christiano_deep_2017,
+	title = {Deep reinforcement learning from human preferences},
+	url = {http://arxiv.org/abs/1706.03741},
+	abstract = {For sophisticated reinforcement learning (RL) systems to interact usefully with real-world environments, we need to communicate complex goals to these systems. In this work, we explore goals defined in terms of (non-expert) human preferences between pairs of trajectory segments. We show that this approach can effectively solve complex RL tasks without access to the reward function, including Atari games and simulated robot locomotion, while providing feedback on less than one percent of our agent's interactions with the environment. This reduces the cost of human oversight far enough that it can be practically applied to state-of-the-art RL systems. To demonstrate the flexibility of our approach, we show that we can successfully train complex novel behaviors with about an hour of human time. These behaviors and environments are considerably more complex than any that have been previously learned from human feedback.},
+	urldate = {2018-12-05},
+	journal = {arXiv:1706.03741 [cs, stat]},
+	author = {Christiano, Paul and Leike, Jan and Brown, Tom B. and Martic, Miljan and Legg, Shane and Amodei, Dario},
+	month = jun,
+	year = {2017},
+	note = {arXiv: 1706.03741},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, deepRL, NERD, Computer Science - Human-Computer Interaction, human preferences},
+	file = {arXiv\:1706.03741 PDF:/Users/arthur/Documents/Zotero/storage/59KHUSD5/Christiano et al. - 2017 - Deep reinforcement learning from human preferences.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/7ZHDR9M3/1706.html:text/html}
+}
+
+@article{schulman_gradient_2015,
+	title = {Gradient {Estimation} {Using} {Stochastic} {Computation} {Graphs}},
+	url = {http://arxiv.org/abs/1506.05254},
+	abstract = {In a variety of problems originating in supervised, unsupervised, and reinforcement learning, the loss function is defined by an expectation over a collection of random variables, which might be part of a probabilistic model or the external world. Estimating the gradient of this loss function, using samples, lies at the core of gradient-based learning algorithms for these problems. We introduce the formalism of stochastic computation graphs---directed acyclic graphs that include both deterministic functions and conditional probability distributions---and describe how to easily and automatically derive an unbiased estimator of the loss function's gradient. The resulting algorithm for computing the gradient estimator is a simple modification of the standard backpropagation algorithm. The generic scheme we propose unifies estimators derived in variety of prior work, along with variance-reduction techniques therein. It could assist researchers in developing intricate models involving a combination of stochastic and deterministic operations, enabling, for example, attention, memory, and control actions.},
+	urldate = {2018-12-06},
+	journal = {arXiv:1506.05254 [cs]},
+	author = {Schulman, John and Heess, Nicolas and Weber, Theophane and Abbeel, Pieter},
+	month = jun,
+	year = {2015},
+	note = {arXiv: 1506.05254},
+	keywords = {Computer Science - Machine Learning, deepRL, policy gradient},
+	file = {arXiv\:1506.05254 PDF:/Users/arthur/Documents/Zotero/storage/R5PAITP6/Schulman et al. - 2015 - Gradient Estimation Using Stochastic Computation G.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/J48A378C/1506.html:text/html}
+}
+
+@article{andreas_learning_2016,
+	title = {Learning to {Compose} {Neural} {Networks} for {Question} {Answering}},
+	url = {http://arxiv.org/abs/1601.01705},
+	abstract = {We describe a question answering model that applies to both images and structured knowledge bases. The model uses natural language strings to automatically assemble neural networks from a collection of composable modules. Parameters for these modules are learned jointly with network-assembly parameters via reinforcement learning, with only (world, question, answer) triples as supervision. Our approach, which we term a dynamic neural model network, achieves state-of-the-art results on benchmark datasets in both visual and structured domains.},
+	urldate = {2018-12-06},
+	journal = {arXiv:1601.01705 [cs]},
+	author = {Andreas, Jacob and Rohrbach, Marcus and Darrell, Trevor and Klein, Dan},
+	month = jan,
+	year = {2016},
+	note = {arXiv: 1601.01705},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Neural and Evolutionary Computing, Computer Science - Computation and Language, deep learning, reinforcement learning},
+	file = {arXiv\:1601.01705 PDF:/Users/arthur/Documents/Zotero/storage/W5JHZK4E/Andreas et al. - 2016 - Learning to Compose Neural Networks for Question A.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/ISA9YUDR/1601.html:text/html}
+}
+
+@book{cormen_introduction_2009,
+	address = {Cambridge, Mass},
+	edition = {3rd ed},
+	title = {Introduction to algorithms},
+	isbn = {978-0-262-03384-8 978-0-262-53305-8},
+	language = {en},
+	publisher = {MIT Press},
+	editor = {Cormen, Thomas H.},
+	year = {2009},
+	note = {OCLC: ocn311310321},
+	keywords = {Computer algorithms, Computer programming},
+	file = {Cormen - 2009 - Introduction to algorithms.pdf:/Users/arthur/Documents/Zotero/storage/I8J4FM5Q/Cormen - 2009 - Introduction to algorithms.pdf:application/pdf}
+}
+
+@book{skiena_algorithm_2008,
+	address = {London},
+	edition = {2nd ed},
+	title = {The algorithm design manual},
+	isbn = {978-1-84800-069-8 978-1-84800-070-4},
+	language = {en},
+	publisher = {Springer},
+	author = {Skiena, Steven S.},
+	year = {2008},
+	note = {OCLC: ocn228582051},
+	keywords = {Computer algorithms},
+	file = {Skiena - 2008 - The algorithm design manual.pdf:/Users/arthur/Documents/Zotero/storage/IKHVBRJ8/Skiena - 2008 - The algorithm design manual.pdf:application/pdf}
+}
+
+@book{mcdowell_cracking_nodate,
+	title = {Cracking the {Coding} {Interview}, 6th {Edition} 189 {Programming} {Questions} and {Solutions}},
+	language = {en},
+	author = {McDowell, Gayle Laakmann},
+	file = {McDowell - Cracking the Coding Interview, 6th Edition 189 Pro.pdf:/Users/arthur/Documents/Zotero/storage/5IWZVU4B/McDowell - Cracking the Coding Interview, 6th Edition 189 Pro.pdf:application/pdf}
+}
+
+@article{warlop_fighting_nodate,
+	title = {Fighting {Boredom} in {Recommender} {Systems} with {Linear} {Reinforcement} {Learning}},
+	abstract = {A common assumption in recommender systems (RS) is the existence of a best ﬁxed recommendation strategy. Such strategy may be simple and work at the item level (e.g., in multi-armed bandit it is assumed one best ﬁxed arm/item exists) or implement more sophisticated RS (e.g., the objective of A/B testing is to ﬁnd the best ﬁxed RS and execute it thereafter). We argue that this assumption is rarely veriﬁed in practice, as the recommendation process itself may impact the user’s preferences. For instance, a user may get bored by a strategy, while she may gain interest again, if enough time passed since the last time that strategy was used. In this case, a better approach consists in alternating different solutions at the right frequency to fully exploit their potential. In this paper, we ﬁrst cast the problem as a Markov decision process, where the rewards are a linear function of the recent history of actions, and we show that a policy considering the long-term inﬂuence of the recommendations may outperform both ﬁxed-action and contextual greedy policies. We then introduce an extension of the UCRL algorithm (LINUCRL) to effectively balance exploration and exploitation in an unknown environment, and we derive a regret bound that is independent of the number of states. Finally, we empirically validate the model assumptions and the algorithm in a number of realistic scenarios.},
+	language = {en},
+	author = {Warlop, Romain and Lazaric, Alessandro and Mary, Jérémie},
+	keywords = {reinforcement learning, NERD, human preferences},
+	pages = {13},
+	file = {Warlop et al. - Fighting Boredom in Recommender Systems with Linea.pdf:/Users/arthur/Documents/Zotero/storage/TSKTCZXV/Warlop et al. - Fighting Boredom in Recommender Systems with Linea.pdf:application/pdf}
+}
+
+@article{kurutach_learning_nodate,
+	title = {Learning {Plannable} {Representations} with {Causal} {InfoGAN}},
+	abstract = {In recent years, deep generative models have been shown to ‘imagine’ convincing high-dimensional observations such as images, audio, and even video, learning directly from raw data. In this work, we ask how to imagine goal-directed visual plans – a plausible sequence of observations that transition a dynamical system from its current conﬁguration to a desired goal state, which can later be used as a reference trajectory for control. We focus on systems with high-dimensional observations, such as images, and propose an approach that naturally combines representation learning and planning. Our framework learns a generative model of sequential observations, where the generative process is induced by a transition in a low-dimensional planning model, and an additional noise. By maximizing the mutual information between the generated observations and the transition in the planning model, we obtain a low-dimensional representation that best explains the causal nature of the data. We structure the planning model to be compatible with efﬁcient planning algorithms, and we propose several such models based on either discrete or continuous states. Finally, to generate a visual plan, we project the current and goal observations onto their respective states in the planning model, plan a trajectory, and then use the generative model to transform the trajectory to a sequence of observations. We demonstrate our method on imagining plausible visual plans of rope manipulation3.},
+	language = {en},
+	author = {Kurutach, Thanard and Tamar, Aviv and Yang, Ge and Russell, Stuart J and Abbeel, Pieter},
+	keywords = {deepRL, world modeling},
+	pages = {12},
+	file = {Kurutach et al. - Learning Plannable Representations with Causal Inf.pdf:/Users/arthur/Documents/Zotero/storage/JMWA6I6H/Kurutach et al. - Learning Plannable Representations with Causal Inf.pdf:application/pdf}
+}
+
+@misc{nag_generative_2017,
+	title = {Generative {Adversarial} {Networks} ({GANs}) in 50 lines of code ({PyTorch})},
+	url = {https://medium.com/@devnag/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f},
+	abstract = {GANs are simpler to set up than you think},
+	urldate = {2018-12-06},
+	journal = {Medium},
+	author = {Nag, Dev},
+	month = feb,
+	year = {2017},
+	keywords = {deep learning, GAN},
+	file = {Snapshot:/Users/arthur/Documents/Zotero/storage/RUX2GX3T/generative-adversarial-networks-gans-in-50-lines-of-code-pytorch-e81b79659e3f.html:text/html}
+}
+
+@misc{sulo_generative_2018,
+	title = {Generative {Adversarial} {Networks} – {Paper} {Reading} {Road} {Map}},
+	url = {https://www.kdnuggets.com/2018/10/generative-adversarial-networks-paper-reading-road-map.html},
+	abstract = {To help the others who want to learn more about the technical sides of GANs, I wanted to share some papers I have read in the order that I read them.},
+	journal = {KDNuggets},
+	author = {Sülo, İdil},
+	year = {2018},
+	keywords = {bibliography, GAN}
+}
+
+@misc{noauthor_papers_nodate,
+	title = {Papers with {Code}},
+	url = {https://www.paperswithcode.com},
+	abstract = {Trending Research
+Ordered by accumulated GitHub stars in last 3 days.},
+	keywords = {bibliography, code, review}
+}
+
+@article{battaglia_relational_2018,
+	title = {Relational inductive biases, deep learning, and graph networks},
+	url = {http://arxiv.org/abs/1806.01261},
+	abstract = {Artificial intelligence (AI) has undergone a renaissance recently, making major progress in key domains such as vision, language, control, and decision-making. This has been due, in part, to cheap data and cheap compute resources, which have fit the natural strengths of deep learning. However, many defining characteristics of human intelligence, which developed under much different pressures, remain out of reach for current approaches. In particular, generalizing beyond one's experiences--a hallmark of human intelligence from infancy--remains a formidable challenge for modern AI. The following is part position paper, part review, and part unification. We argue that combinatorial generalization must be a top priority for AI to achieve human-like abilities, and that structured representations and computations are key to realizing this objective. Just as biology uses nature and nurture cooperatively, we reject the false choice between "hand-engineering" and "end-to-end" learning, and instead advocate for an approach which benefits from their complementary strengths. We explore how using relational inductive biases within deep learning architectures can facilitate learning about entities, relations, and rules for composing them. We present a new building block for the AI toolkit with a strong relational inductive bias--the graph network--which generalizes and extends various approaches for neural networks that operate on graphs, and provides a straightforward interface for manipulating structured knowledge and producing structured behaviors. We discuss how graph networks can support relational reasoning and combinatorial generalization, laying the foundation for more sophisticated, interpretable, and flexible patterns of reasoning. As a companion to this paper, we have released an open-source software library for building graph networks, with demonstrations of how to use them in practice.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1806.01261 [cs, stat]},
+	author = {Battaglia, Peter W. and Hamrick, Jessica B. and Bapst, Victor and Sanchez-Gonzalez, Alvaro and Zambaldi, Vinicius and Malinowski, Mateusz and Tacchetti, Andrea and Raposo, David and Santoro, Adam and Faulkner, Ryan and Gulcehre, Caglar and Song, Francis and Ballard, Andrew and Gilmer, Justin and Dahl, George and Vaswani, Ashish and Allen, Kelsey and Nash, Charles and Langston, Victoria and Dyer, Chris and Heess, Nicolas and Wierstra, Daan and Kohli, Pushmeet and Botvinick, Matt and Vinyals, Oriol and Li, Yujia and Pascanu, Razvan},
+	month = jun,
+	year = {2018},
+	note = {arXiv: 1806.01261},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, deep learning, graphs},
+	file = {arXiv\:1806.01261 PDF:/Users/arthur/Documents/Zotero/storage/J5HPKH8L/Battaglia et al. - 2018 - Relational inductive biases, deep learning, and gr.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/YK4W2QVA/1806.html:text/html}
+}
+
+@article{devlin_bert:_2018,
+	title = {{BERT}: {Pre}-training of {Deep} {Bidirectional} {Transformers} for {Language} {Understanding}},
+	shorttitle = {{BERT}},
+	url = {http://arxiv.org/abs/1810.04805},
+	abstract = {We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT representations can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE benchmark to 80.4\% (7.6\% absolute improvement), MultiNLI accuracy to 86.7 (5.6\% absolute improvement) and the SQuAD v1.1 question answering Test F1 to 93.2 (1.5\% absolute improvement), outperforming human performance by 2.0\%.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1810.04805 [cs]},
+	author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
+	month = oct,
+	year = {2018},
+	note = {arXiv: 1810.04805},
+	keywords = {Computer Science - Computation and Language, deep learning, attention mechanisms, transformer},
+	file = {arXiv\:1810.04805 PDF:/Users/arthur/Documents/Zotero/storage/4HF4TVRM/Devlin et al. - 2018 - BERT Pre-training of Deep Bidirectional Transform.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/R5JS4QHT/1810.html:text/html}
+}
+
+@misc{loy_how_2018,
+	title = {How to build your own {Neural} {Network} from scratch in {Python}},
+	url = {https://towardsdatascience.com/how-to-build-your-own-neural-network-from-scratch-in-python-68998a08e4f6},
+	abstract = {A beginner’s guide to understanding the inner workings of Deep Learning},
+	author = {Loy, James},
+	month = may,
+	year = {2018},
+	keywords = {deep learning, simple, example}
+}
+
+@book{redmond_seven_nodate,
+	title = {Seven {Databases} in {Seven} {Weeks}},
+	language = {en},
+	author = {Redmond, Eric and Wilson, Jim R},
+	keywords = {database, nosql},
+	file = {Redmond and Wilson - Seven Databases in Seven Weeks.pdf:/Users/arthur/Documents/Zotero/storage/Z6QPF3EZ/Redmond and Wilson - Seven Databases in Seven Weeks.pdf:application/pdf}
+}
+
+@article{graves_neural_2014,
+	title = {Neural {Turing} {Machines}},
+	url = {http://arxiv.org/abs/1410.5401},
+	abstract = {We extend the capabilities of neural networks by coupling them to external memory resources, which they can interact with by attentional processes. The combined system is analogous to a Turing Machine or Von Neumann architecture but is differentiable end-to-end, allowing it to be efficiently trained with gradient descent. Preliminary results demonstrate that Neural Turing Machines can infer simple algorithms such as copying, sorting, and associative recall from input and output examples.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1410.5401 [cs]},
+	author = {Graves, Alex and Wayne, Greg and Danihelka, Ivo},
+	month = oct,
+	year = {2014},
+	note = {arXiv: 1410.5401},
+	keywords = {Computer Science - Neural and Evolutionary Computing, attention mechanisms, neural Turing machine},
+	file = {arXiv\:1410.5401 PDF:/Users/arthur/Documents/Zotero/storage/4MNECYZV/Graves et al. - 2014 - Neural Turing Machines.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/37VB4HRM/1410.html:text/html}
+}
+
+@article{zaremba_reinforcement_2015,
+	title = {Reinforcement {Learning} {Neural} {Turing} {Machines} - {Revised}},
+	url = {http://arxiv.org/abs/1505.00521},
+	abstract = {The Neural Turing Machine (NTM) is more expressive than all previously considered models because of its external memory. It can be viewed as a broader effort to use abstract external Interfaces and to learn a parametric model that interacts with them. The capabilities of a model can be extended by providing it with proper Interfaces that interact with the world. These external Interfaces include memory, a database, a search engine, or a piece of software such as a theorem verifier. Some of these Interfaces are provided by the developers of the model. However, many important existing Interfaces, such as databases and search engines, are discrete. We examine feasibility of learning models to interact with discrete Interfaces. We investigate the following discrete Interfaces: a memory Tape, an input Tape, and an output Tape. We use a Reinforcement Learning algorithm to train a neural network that interacts with such Interfaces to solve simple algorithmic tasks. Our Interfaces are expressive enough to make our model Turing complete.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1505.00521 [cs]},
+	author = {Zaremba, Wojciech and Sutskever, Ilya},
+	month = may,
+	year = {2015},
+	note = {arXiv: 1505.00521},
+	keywords = {Computer Science - Machine Learning, deepRL, attention mechanisms, neural Turing machine},
+	file = {arXiv\:1505.00521 PDF:/Users/arthur/Documents/Zotero/storage/9DRXV9CA/Zaremba and Sutskever - 2015 - Reinforcement Learning Neural Turing Machines - Re.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/6Q4V3G5N/1505.html:text/html}
+}
+
+@article{neelakantan_neural_2015,
+	title = {Neural {Programmer}: {Inducing} {Latent} {Programs} with {Gradient} {Descent}},
+	shorttitle = {Neural {Programmer}},
+	url = {http://arxiv.org/abs/1511.04834},
+	abstract = {Deep neural networks have achieved impressive supervised classification performance in many tasks including image recognition, speech recognition, and sequence to sequence learning. However, this success has not been translated to applications like question answering that may involve complex arithmetic and logic reasoning. A major limitation of these models is in their inability to learn even simple arithmetic and logic operations. For example, it has been shown that neural networks fail to learn to add two binary numbers reliably. In this work, we propose Neural Programmer, an end-to-end differentiable neural network augmented with a small set of basic arithmetic and logic operations. Neural Programmer can call these augmented operations over several steps, thereby inducing compositional programs that are more complex than the built-in operations. The model learns from a weak supervision signal which is the result of execution of the correct program, hence it does not require expensive annotation of the correct program itself. The decisions of what operations to call, and what data segments to apply to are inferred by Neural Programmer. Such decisions, during training, are done in a differentiable fashion so that the entire network can be trained jointly by gradient descent. We find that training the model is difficult, but it can be greatly improved by adding random noise to the gradient. On a fairly complex synthetic table-comprehension dataset, traditional recurrent networks and attentional models perform poorly while Neural Programmer typically obtains nearly perfect accuracy.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1511.04834 [cs, stat]},
+	author = {Neelakantan, Arvind and Le, Quoc V. and Sutskever, Ilya},
+	month = nov,
+	year = {2015},
+	note = {arXiv: 1511.04834},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computation and Language, attention mechanisms, neural programmer},
+	file = {arXiv\:1511.04834 PDF:/Users/arthur/Documents/Zotero/storage/Z8P5IJ5S/Neelakantan et al. - 2015 - Neural Programmer Inducing Latent Programs with G.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/IQ44FY6H/1511.html:text/html}
+}
+
+@article{elbayad_pervasive_2018,
+	title = {Pervasive {Attention}: 2D {Convolutional} {Neural} {Networks} for {Sequence}-to-{Sequence} {Prediction}},
+	shorttitle = {Pervasive {Attention}},
+	url = {http://arxiv.org/abs/1808.03867},
+	abstract = {Current state-of-the-art machine translation systems are based on encoder-decoder architectures, that first encode the input sequence, and then generate an output sequence based on the input encoding. Both are interfaced with an attention mechanism that recombines a fixed encoding of the source tokens based on the decoder state. We propose an alternative approach which instead relies on a single 2D convolutional neural network across both sequences. Each layer of our network re-codes source tokens on the basis of the output sequence produced so far. Attention-like properties are therefore pervasive throughout the network. Our model yields excellent results, outperforming state-of-the-art encoder-decoder systems, while being conceptually simpler and having fewer parameters.},
+	urldate = {2018-12-07},
+	journal = {arXiv:1808.03867 [cs]},
+	author = {Elbayad, Maha and Besacier, Laurent and Verbeek, Jakob},
+	month = aug,
+	year = {2018},
+	note = {arXiv: 1808.03867},
+	keywords = {Computer Science - Computation and Language, attention mechanisms, pervasive attention},
+	file = {arXiv\:1808.03867 PDF:/Users/arthur/Documents/Zotero/storage/Y2MYPTVW/Elbayad et al. - 2018 - Pervasive Attention 2D Convolutional Neural Netwo.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/9QYJVX9B/1808.html:text/html}
+}
+
+@misc{sankesara_example_nodate,
+	title = {Example of paper reimplementation repository},
+	url = {https://github.com/Hsankesara/DeepResearch},
+	abstract = {Personal note: this is an example of repository with reproductions of research papers.},
+	author = {Sankesara, Heet},
+	keywords = {research, code, example}
+}
+
+@misc{amidi_vip_nodate,
+	title = {{VIP} cheatsheets for {Stanford}'s {CS} 229 {Machine} {Learning}},
+	url = {https://github.com/afshinea/stanford-cs-229-machine-learning},
+	author = {Amidi, Afshine},
+	keywords = {machine learning, cheatsheet}
+}
+
+@misc{amidi_vip_nodate-1,
+	title = {{VIP} cheatsheets for {Stanford}'s {CS} 230 {Deep} {Learning}},
+	url = {https://github.com/afshinea/stanford-cs-230-deep-learning},
+	author = {Amidi, Afshine},
+	keywords = {machine learning, cheatsheet}
+}
+
+@article{unser_representer_2018,
+	title = {A {Representer} {Theorem} for {Deep} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1802.09210},
+	abstract = {We propose to optimize the activation functions of a deep neural network by adding a corresponding functional regularization to the cost function. We justify the use of a second-order total-variation criterion. This allows us to derive a general representer theorem for deep neural networks that makes a direct connection with splines and sparsity. Specifically, we show that the optimal network configuration can be achieved with activation functions that are nonuniform linear splines with adaptive knots. The bottom line is that the action of each neuron is encoded by a spline whose parameters (including the number of knots) are optimized during the training procedure. The scheme results in a computational structure that is compatible with the existing deep-ReLU and MaxOut architectures. It also suggests novel optimization challenges, while making the link with \${\textbackslash}ell\_1\$ minimization and sparsity-promoting techniques explicit.},
+	urldate = {2018-12-08},
+	journal = {arXiv:1802.09210 [cs, stat]},
+	author = {Unser, Michael},
+	month = feb,
+	year = {2018},
+	note = {arXiv: 1802.09210},
+	keywords = {Computer Science - Machine Learning, deep learning, kernel learning, representer theorem, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1802.09210 PDF:/Users/arthur/Documents/Zotero/storage/IJDD7Q6D/Unser - 2018 - A representer theorem for deep neural networks.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/8CY8VM44/1802.html:text/html}
+}
+
+@inproceedings{hagiwara_fitting_2018,
+	series = {Lecture {Notes} in {Computer} {Science}},
+	title = {On a {Fitting} of a {Heaviside} {Function} by {Deep} {ReLU} {Neural} {Networks}},
+	isbn = {978-3-030-04167-0},
+	abstract = {A recent research interest on deep neural networks is to understand why deep networks are preferred to shallow networks. In this article, we considered an advantage of a deep structure in realizing a heaviside function in training. This is significant not only as simple classification problems but also as a basis in constructing general non-smooth functions. A heaviside function can be well approximated by a difference of ReLUs if we can set extremely large weight values. However, it is not so easy to attain them in training. We showed that a heaviside function can be well represented without large weight values if we employ a deep structure. We also showed that update terms of weights at input side can be necessarily large if a network is trained to realize a heaviside function. Therefore, apparent acceleration of training is brought about by setting a small learning rate. As a result, we can say that, by employing a deep structure, a good fitting of heaviside function can be obtained within a reasonable training time under a moderate small learning rate. Our results suggest that a deep structure is effective in a practical training that requires a discontinuous output.},
+	language = {en},
+	booktitle = {Neural {Information} {Processing}},
+	publisher = {Springer International Publishing},
+	author = {Hagiwara, Katsuyuki},
+	editor = {Cheng, Long and Leung, Andrew Chi Sing and Ozawa, Seiichi},
+	year = {2018},
+	keywords = {deep learning, theoretical understanding, Deep neural networks, Heaviside function, ReLU},
+	pages = {59--69}
+}
+
+@article{ramesh_spectral_2018,
+	title = {A {Spectral} {Regularizer} for {Unsupervised} {Disentanglement}},
+	url = {http://arxiv.org/abs/1812.01161},
+	abstract = {Generative models that learn to associate variations in the output along isolated attributes with coordinate directions in latent space are said to possess disentangled representations. This has been a recent topic of great interest, but remains poorly understood. We show that even for GANs that do not possess disentangled representations, one can find paths in latent space over which local disentanglement occurs. These paths are determined by the leading right-singular vectors of the Jacobian of the generator with respect to its input. We describe an efficient regularizer that aligns these vectors with the coordinate axes, and show that it can be used to induce high-quality, disentangled representations in GANs, in a completely unsupervised manner.},
+	urldate = {2018-12-08},
+	journal = {arXiv:1812.01161 [cs, stat]},
+	author = {Ramesh, Aditya and Choi, Youngduck and LeCun, Yann},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.01161},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, unsupervised learning},
+	file = {arXiv\:1812.01161 PDF:/Users/arthur/Documents/Zotero/storage/UIWR9P9V/Ramesh et al. - 2018 - A Spectral Regularizer for Unsupervised Disentangl.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/KFEZJHSW/1812.html:text/html}
+}
+
+@misc{noauthor_jekyll_nodate,
+	title = {Jekyll {Now}},
+	url = {http://www.jekyllnow.com},
+	abstract = {Jekyll is a static site generator that's perfect for GitHub hosted blogs.
+
+Jekyll Now makes it easier to create a Jekyll blog, by eliminating a lot of the up front setup.
+
+You don't need to touch the command line
+You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
+You don't need to install runtime dependancies like markdown processors, Pygments, etc
+It's easy to try out, you can just delete your forked repository if you don't like it
+In a few minutes you'll be set up with a minimal, responsive blog just like this one—giving you more time to spend on making your blog awesome!},
+	keywords = {code, blog}
+}
+
+@article{silver_general_nodate,
+	title = {A general reinforcement learning algorithm that masters chess, shogi and {Go} through self-play},
+	abstract = {The game of chess is the longest-studied domain in the history of artiﬁcial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-speciﬁc adaptations, and handcrafted evaluation functions that have been reﬁned by human experts over several decades. By contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go by reinforcement learning from selfplay. In this paper, we generalize this approach into a single AlphaZero algorithm that can achieve superhuman performance in many challenging games. Starting from random play and given no domain knowledge except the game rules, AlphaZero convincingly defeated a world champion program in the games of chess and shogi (Japanese chess) as well as Go.},
+	language = {en},
+	author = {Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and Lillicrap, Timothy and Simonyan, Karen and Hassabis, Demis},
+	keywords = {deepRL, NERD},
+	pages = {32},
+	file = {Silver et al. - A general reinforcement learning algorithm that ma.pdf:/Users/arthur/Documents/Zotero/storage/HFVUWHSU/Silver et al. - A general reinforcement learning algorithm that ma.pdf:application/pdf}
+}
+
+@article{mcdowell_cracking_nodate-1,
+	title = {Cracking the {Coding} {Skills}},
+	language = {en},
+	author = {McDowell, Gayle Laakmann},
+	pages = {1},
+	file = {Gayle and McDowell - Best Conceivable Runtime (BCR).pdf:/Users/arthur/Documents/Zotero/storage/A85Z63UD/Gayle and McDowell - Best Conceivable Runtime (BCR).pdf:application/pdf}
+}
+
+@misc{cs_dojo_data_2018,
+	title = {Data {Structures} \& {Algorithms} {Series}},
+	url = {https://www.youtube.com/watch?v=bum_19loj9A&list=PLBZBJbE_rGRV8D7XZ08LK6z-4zPoWzu5H},
+	author = {CS Dojo},
+	year = {2018},
+	keywords = {***, algorithms, software engineering, data structures}
+}
+
+@article{cheng_instanas:_2018,
+	title = {{InstaNAS}: {Instance}-aware {Neural} {Architecture} {Search}},
+	shorttitle = {{InstaNAS}},
+	url = {http://arxiv.org/abs/1811.10201},
+	abstract = {Neural Architecture Search (NAS) aims at finding one "single" architecture that achieves the best accuracy for a given task such as image recognition.In this paper, we study the instance-level variation,and demonstrate that instance-awareness is an important yet currently missing component of NAS. Based on this observation, we propose InstaNAS for searching toward instance-level architectures;the controller is trained to search and form a "distribution of architectures" instead of a single final architecture. Then during the inference phase, the controller selects an architecture from the distribution, tailored for each unseen image to achieve both high accuracy and short latency. The experimental results show that InstaNAS reduces the inference latency without compromising classification accuracy. On average, InstaNAS achieves 48.9\% latency reduction on CIFAR-10 and 40.2\% latency reduction on CIFAR-100 with respect to MobileNetV2 architecture.},
+	urldate = {2018-12-10},
+	journal = {arXiv:1811.10201 [cs, stat]},
+	author = {Cheng, An-Chieh and Lin, Chieh Hubert and Juan, Da-Cheng and Wei, Wei and Sun, Min},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.10201},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, neural architecture search},
+	file = {arXiv\:1811.10201 PDF:/Users/arthur/Documents/Zotero/storage/DIZLNCSC/Cheng et al. - 2018 - InstaNAS Instance-aware Neural Architecture Searc.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/AAWYQQCT/1811.html:text/html}
+}
+
+@article{cheng_instanas:_2018-1,
+	title = {{InstaNAS}: {Instance}-aware {Neural} {Architecture} {Search}},
+	shorttitle = {{InstaNAS}},
+	url = {http://arxiv.org/abs/1811.10201},
+	abstract = {Neural Architecture Search (NAS) aims at finding one "single" architecture that achieves the best accuracy for a given task such as image recognition.In this paper, we study the instance-level variation,and demonstrate that instance-awareness is an important yet currently missing component of NAS. Based on this observation, we propose InstaNAS for searching toward instance-level architectures;the controller is trained to search and form a "distribution of architectures" instead of a single final architecture. Then during the inference phase, the controller selects an architecture from the distribution, tailored for each unseen image to achieve both high accuracy and short latency. The experimental results show that InstaNAS reduces the inference latency without compromising classification accuracy. On average, InstaNAS achieves 48.9\% latency reduction on CIFAR-10 and 40.2\% latency reduction on CIFAR-100 with respect to MobileNetV2 architecture.},
+	urldate = {2018-12-10},
+	journal = {arXiv:1811.10201 [cs, stat]},
+	author = {Cheng, An-Chieh and Lin, Chieh Hubert and Juan, Da-Cheng and Wei, Wei and Sun, Min},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.10201},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv\:1811.10201 PDF:/Users/arthur/Documents/Zotero/storage/B8P49XVR/Cheng et al. - 2018 - InstaNAS Instance-aware Neural Architecture Searc.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/X2WTBATP/1811.html:text/html}
+}
+
+@article{cheng_instanas:_2018-2,
+	title = {{InstaNAS}: {Instance}-aware {Neural} {Architecture} {Search}},
+	shorttitle = {{InstaNAS}},
+	url = {http://arxiv.org/abs/1811.10201},
+	abstract = {Neural Architecture Search (NAS) aims at finding one "single" architecture that achieves the best accuracy for a given task such as image recognition.In this paper, we study the instance-level variation,and demonstrate that instance-awareness is an important yet currently missing component of NAS. Based on this observation, we propose InstaNAS for searching toward instance-level architectures;the controller is trained to search and form a "distribution of architectures" instead of a single final architecture. Then during the inference phase, the controller selects an architecture from the distribution, tailored for each unseen image to achieve both high accuracy and short latency. The experimental results show that InstaNAS reduces the inference latency without compromising classification accuracy. On average, InstaNAS achieves 48.9\% latency reduction on CIFAR-10 and 40.2\% latency reduction on CIFAR-100 with respect to MobileNetV2 architecture.},
+	urldate = {2018-12-10},
+	journal = {arXiv:1811.10201 [cs, stat]},
+	author = {Cheng, An-Chieh and Lin, Chieh Hubert and Juan, Da-Cheng and Wei, Wei and Sun, Min},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.10201},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computer Vision and Pattern Recognition},
+	file = {arXiv\:1811.10201 PDF:/Users/arthur/Documents/Zotero/storage/NDL9UNUJ/Cheng et al. - 2018 - InstaNAS Instance-aware Neural Architecture Searc.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/W5455HAC/1811.html:text/html}
+}
+
+@misc{dupre_apprendre_nodate,
+	title = {Apprendre la programmation avec {Python}},
+	url = {http://www.xavierdupre.fr/app/teachpyx/helpsphinx/index.html},
+	author = {Dupré, Xavier}
+}
+
+@misc{orrsella_software_2015,
+	title = {Software {Engineering} {Interview} {Preparation}},
+	url = {https://github.com/orrsella/soft-eng-interview-prep},
+	author = {orrsella},
+	year = {2015},
+	keywords = {cheatsheet, algorithms, software engineering, data structures}
+}
+
+@article{campa_rise_2016,
+	title = {The {Rise} of {Social} {Robots}: {A} {Review} of the {Recent} {Literature}},
+	url = {https://jetpress.org/v26.1/campa.htm},
+	abstract = {In this article I explore the most recent literature on social robotics and argue that the field of robotics is evolving in a direction that will soon require a systematic collaboration between engineers and sociologists. After discussing several problems relating to social robotics, I emphasize that two key concepts in this research area are scenario and persona. These are already popular as design tools in Human-Computer Interaction (HCI), and an approach based on them is now being adopted in Human-Robot Interaction (HRI). As robots become more and more sophisticated, engineers will need the help of trained sociologists and psychologists in order to create personas and scenarios and to “teach” humanoids how to behave in various circumstances.},
+	journal = {Journal of Evolution and Technology},
+	author = {Campa, Riccardo},
+	month = feb,
+	year = {2016}
+}
+
+@misc{mcdowell_data_2016,
+	title = {Data {Structures} {Playlist} from {CTCI} {Author}},
+	url = {https://www.youtube.com/playlist?list=PLI1t_8YX-Apv-UiRlnZwqqrRT8D1RhriX},
+	author = {McDowell, Gayle Laakmann},
+	year = {2016},
+	keywords = {software engineering, data structures}
+}
+
+@misc{mcdowell_algorithms_2016,
+	title = {Algorithms {Playlist} from {CTCI} {Author}},
+	url = {https://www.youtube.com/playlist?list=PLI1t_8YX-ApvMthLj56t1Rf-Buio5Y8KL},
+	author = {McDowell, Gayle Laakmann},
+	year = {2016},
+	keywords = {algorithms, software engineering}
+}
+
+@misc{google_data_nodate,
+	title = {Data {Structures} and {Algorithms} in {Python}},
+	url = {https://classroom.udacity.com/courses/ud513},
+	author = {google},
+	keywords = {algorithms, data structures, lecture, software engineering},
+	file = {tree terminology.png:/Users/arthur/Documents/Zotero/storage/SBQ6TA67/tree terminology.png:image/png}
+}
+
+@article{cai_making_2017,
+	title = {Making {Neural} {Programming} {Architectures} {Generalize} via {Recursion}},
+	url = {http://arxiv.org/abs/1704.06611},
+	abstract = {Empirically, neural networks that attempt to learn programs from data have exhibited poor generalizability. Moreover, it has traditionally been difficult to reason about the behavior of these models beyond a certain level of input complexity. In order to address these issues, we propose augmenting neural architectures with a key abstraction: recursion. As an application, we implement recursion in the Neural Programmer-Interpreter framework on four tasks: grade-school addition, bubble sort, topological sort, and quicksort. We demonstrate superior generalizability and interpretability with small amounts of training data. Recursion divides the problem into smaller pieces and drastically reduces the domain of each neural network component, making it tractable to prove guarantees about the overall system's behavior. Our experience suggests that in order for neural architectures to robustly learn program semantics, it is necessary to incorporate a concept like recursion.},
+	urldate = {2018-12-12},
+	journal = {arXiv:1704.06611 [cs]},
+	author = {Cai, Jonathon and Shin, Richard and Song, Dawn},
+	month = apr,
+	year = {2017},
+	note = {arXiv: 1704.06611},
+	keywords = {Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, generalization, Computer Science - Programming Languages},
+	file = {arXiv\:1704.06611 PDF:/Users/arthur/Documents/Zotero/storage/5T6ILM6H/Cai et al. - 2017 - Making Neural Programming Architectures Generalize.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/DVP7A3UC/1704.html:text/html}
+}
+
+@article{francois-lavet_introduction_2018,
+	title = {An {Introduction} to {Deep} {Reinforcement} {Learning}},
+	url = {http://arxiv.org/abs/1811.12560},
+	doi = {10.1561/2200000071},
+	abstract = {Deep reinforcement learning is the combination of reinforcement learning (RL) and deep learning. This field of research has been able to solve a wide range of complex decision-making tasks that were previously out of reach for a machine. Thus, deep RL opens up many new applications in domains such as healthcare, robotics, smart grids, finance, and many more. This manuscript provides an introduction to deep reinforcement learning models, algorithms and techniques. Particular focus is on the aspects related to generalization and how deep RL can be used for practical applications. We assume the reader is familiar with basic machine learning concepts.},
+	urldate = {2018-12-12},
+	journal = {arXiv:1811.12560 [cs, stat]},
+	author = {Francois-Lavet, Vincent and Henderson, Peter and Islam, Riashat and Bellemare, Marc G. and Pineau, Joelle},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.12560},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence},
+	file = {arXiv\:1811.12560 PDF:/Users/arthur/Documents/Zotero/storage/4LEX56BS/Francois-Lavet et al. - 2018 - An Introduction to Deep Reinforcement Learning.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/MD9RSBGL/1811.html:text/html}
+}
+
+@misc{depth_first_learning_depth_2018,
+	title = {Depth {First} {Learning} {Curricula}},
+	url = {http://www.depthfirstlearning.com},
+	abstract = {DFL is a compendium of curricula to help you deeply understand Machine Learning.
+
+Each of our posts are a self-contained lesson plan targeting a significant research paper and complete with readings, questions, and answers.
+
+We can guarantee that honestly engaging the material will leave you with a thorough understanding of the methods, background, and significance of that paper.
+
+Want to stay up to date on future in-person or on-line DFL study groups? Fill out this short form.},
+	author = {depth first learning},
+	year = {2018},
+	keywords = {bibliography, learning, tutorial}
+}
+
+@misc{oliver_infogan_2018,
+	title = {{InfoGAN} · {Depth} {First} {Learning}},
+	url = {http://www.depthfirstlearning.com/2018/InfoGAN},
+	abstract = {InfoGAN is an extension of GANs that learns to represent unlabeled data as codes, aka representation learning. Compare this to vanilla GANs that can only generate samples or to VAEs that learn to both generate code and samples. Representation learning is an important direction for unsupervised learning and GANs are a flexible and powerful interpretation. This makes InfoGAN an interesting stepping stone towards research in representation learning.},
+	urldate = {2018-12-12},
+	author = {Oliver, Avital},
+	month = may,
+	year = {2018},
+	keywords = {deep learning, GAN, tutorial},
+	file = {InfoGAN · Depth First Learning:/Users/arthur/Documents/Zotero/storage/QR7BCSXI/InfoGAN.html:text/html}
+}
+
+@misc{bhupatiraju_trust_2018,
+	title = {Trust {Region} {Policy} {Optimization} · {Depth} {First} {Learning}},
+	url = {http://www.depthfirstlearning.com/2018/TRPO},
+	abstract = {TRPO is a scalable algorithm for optimizing policies in reinforcement learning by gradient descent. Model-free algorithms such as policy gradient methods do not require access to a model of the environment and often enjoy better practical stability. Consequently, while straightforward to apply to new problems, they have trouble scaling to large, nonlinear policies. TRPO couples insights from reinforcement learning and optimization theory to develop an algorithm which, under certain assumptions, provides guarantees for monotonic improvement. It is now commonly used as a strong baseline when developing new algorithms.},
+	urldate = {2018-12-12},
+	author = {Bhupatiraju, Surya and Agrawal, Kumar Krishna},
+	month = jun,
+	year = {2018},
+	keywords = {deepRL, tutorial},
+	file = {Trust Region Policy Optimization · Depth First Learning:/Users/arthur/Documents/Zotero/storage/2A5A9F5F/TRPO.html:text/html}
+}
+
+@misc{resnick_alphagozero_2018,
+	title = {{AlphaGoZero} · {Depth} {First} {Learning}},
+	url = {http://www.depthfirstlearning.com/2018/AlphaGoZero},
+	abstract = {AlphaGoZero was a big splash when it debuted and for good reason. The grand effort was led by David Silver at DeepMind and was an extension of work that he started during his PhD. The main idea is to solve the game of Go and the approach taken is to use an algorithm called Monte Carlo Tree Search (MCTS). This algorithm acts as an expert guide to teach a deep neural network how to approximate the value of each state. The convergence properties of MCTS provides the neural network with a founded way to reduce the search space.
+
+In this curriculum, you will focus on the study of two-person zero-sum perfect information games and develop understanding so that you can completely grok AlphaGoZero.},
+	urldate = {2018-12-12},
+	author = {Resnick, Cinjon},
+	month = jun,
+	year = {2018},
+	keywords = {deepRL, NERD, tutorial},
+	file = {AlphaGoZero · Depth First Learning:/Users/arthur/Documents/Zotero/storage/FAHEL3SA/AlphaGoZero.html:text/html}
+}
+
+@techreport{bruna_material_2018,
+	title = {Material for {Lecture} {Mathematics} of {Deep} {Learning}},
+	url = {https://github.com/joanbruna/MathsDL-spring18},
+	author = {Bruna, Joan},
+	year = {2018},
+	keywords = {deep learning, lecture, theoretical understanding, mathematics}
+}
+
+@misc{resnick_deepstack_2018,
+	title = {{DeepStack} · {Depth} {First} {Learning}},
+	url = {http://www.depthfirstlearning.com/2018/DeepStack},
+	abstract = {Along with Libratus, DeepStack is one of two approaches to solving No-Limit Texas Hold-em that debuted coincidentally. This game was notoriously difficult to solve as it has just as large a branching factor as Go, but additionally is a game of imperfect information.
+
+The main idea behind both DeepStack and Libratus is to use Counterfactual Regret Minimization (CFR) to find a mixed strategy that approximates a Nash Equilibrium strategy. CFR’s convergence properties guarantee that we will yield such a strategy and the closer we are to it, the better our outcome will be. They differ in their implementation. In particular, DeepStack uses deep neural networks to approximate the counterfactual value of each hand at specific points in the game. While still being mathematically tight, this lets it cut short the necessary computation to reach convergence.
+
+In this curriculum, you will explore the study of games with a tour through game theory and counterfactual regret minimization while building up the requisite understanding to tackle DeepStack. Along the way, you will learn all of the necessary topics, including what is the branching factor, all about Nash Equilibria, and CFR.},
+	urldate = {2018-12-12},
+	author = {Resnick, Cinjon},
+	month = jul,
+	year = {2018},
+	keywords = {deepRL, tutorial, poker},
+	file = {DeepStack · Depth First Learning:/Users/arthur/Documents/Zotero/storage/C54DCV3Q/DeepStack.html:text/html}
+}
+
+@book{bishop_pattern_2006,
+	address = {New York},
+	series = {Information science and statistics},
+	title = {Pattern recognition and machine learning},
+	isbn = {978-0-387-31073-2},
+	language = {en},
+	publisher = {Springer},
+	author = {Bishop, Christopher M.},
+	year = {2006},
+	keywords = {machine learning, Machine learning, Pattern perception, book},
+	file = {Bishop - 2006 - Pattern recognition and machine learning.pdf:/Users/arthur/Documents/Zotero/storage/9IQS7PA8/Bishop - 2006 - Pattern recognition and machine learning.pdf:application/pdf}
+}
+
+@misc{roullier_cross-entropy_nodate,
+	title = {Cross-{Entropy} vs. {L}2 {Minimization} in {Classification}},
+	author = {Roullier, Arthur},
+	keywords = {experiment}
+}
+
+@misc{galles_data_2011,
+	title = {Data {Structure} (and {Algorithms}) {Visualizations}},
+	url = {https://www.cs.usfca.edu/~galles/visualization/Algorithms.html},
+	author = {Galles, David},
+	year = {2011},
+	keywords = {visualization, algorithms, data structures, tutorial, demo}
+}
+
+@misc{hao_radical_2018,
+	title = {A radical new neural network design could overcome big challenges in {AI} - {MIT} {Technology} {Review}},
+	url = {https://www.technologyreview.com/s/612561/a-radical-new-neural-network-design-could-overcome-big-challenges-in-ai/},
+	abstract = {Researchers borrowed equations from calculus to redesign the core machinery of deep learning so it can model continuous processes like changes in health.},
+	urldate = {2018-12-13},
+	author = {Hao, Karen},
+	month = dec,
+	year = {2018},
+	keywords = {deep learning, new architecture},
+	file = {A radical new neural network design could overcome big challenges in AI - MIT Technology Review:/Users/arthur/Documents/Zotero/storage/PY3WD52F/a-radical-new-neural-network-design-could-overcome-big-challenges-in-ai.html:text/html}
+}
+
+@article{chen_neural_2018,
+	title = {Neural {Ordinary} {Differential} {Equations}},
+	url = {http://arxiv.org/abs/1806.07366},
+	abstract = {We introduce a new family of deep neural network models. Instead of specifying a discrete sequence of hidden layers, we parameterize the derivative of the hidden state using a neural network. The output of the network is computed using a black-box differential equation solver. These continuous-depth models have constant memory cost, adapt their evaluation strategy to each input, and can explicitly trade numerical precision for speed. We demonstrate these properties in continuous-depth residual networks and continuous-time latent variable models. We also construct continuous normalizing flows, a generative model that can train by maximum likelihood, without partitioning or ordering the data dimensions. For training, we show how to scalably backpropagate through any ODE solver, without access to its internal operations. This allows end-to-end training of ODEs within larger models.},
+	urldate = {2018-12-13},
+	journal = {arXiv:1806.07366 [cs, stat]},
+	author = {Chen, Ricky T. Q. and Rubanova, Yulia and Bettencourt, Jesse and Duvenaud, David},
+	month = jun,
+	year = {2018},
+	note = {arXiv: 1806.07366},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, deep learning, new architecture},
+	file = {arXiv\:1806.07366 PDF:/Users/arthur/Documents/Zotero/storage/BKSIL4B8/Chen et al. - 2018 - Neural Ordinary Differential Equations.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/RYYVCFXQ/1806.html:text/html}
+}
+
+@misc{sloane_online_1964,
+	title = {The {Online} {Encyclopedia} of {Integer} {Sequences}},
+	url = {https://oeis.org},
+	author = {Sloane, N.J.A.},
+	year = {1964},
+	keywords = {*****, numbers}
+}
+
+@misc{noauthor_pytorch_nodate,
+	title = {Pytorch},
+	url = {https://pytorch.org},
+	keywords = {deep learning, framework}
+}
+
+@misc{noauthor_conda_nodate,
+	title = {Conda user cheat sheet},
+	keywords = {python, package manager},
+	file = {Conda user cheat sheet:/Users/arthur/Documents/Zotero/storage/J7N8F7BT/Conda cheatsheet.pdf:application/pdf}
+}
+
+@misc{noauthor_pytorch_nodate-1,
+	title = {Pytorch cheatsheet},
+	url = {https://pytorch.org/tutorials/beginner/ptcheat.html},
+	keywords = {pytorch, cheatsheet}
+}
+
+@misc{arxiv_insight_variational_2018,
+	title = {Variational {Autoencoders}},
+	url = {https://www.youtube.com/watch?v=9zKuYvjFFS8},
+	abstract = {In this episode, we dive into Variational Autoencoders, a class of neural networks that can learn to compress data completely unsupervised!},
+	author = {arxiv insight},
+	month = feb,
+	year = {2018},
+	keywords = {deep learning, ****, autoencoders},
+	file = {denoising autoencoder.png:/Users/arthur/Documents/Zotero/storage/VQIZEDNJ/denoising autoencoder.png:image/png;image segmentation with AE.png:/Users/arthur/Documents/Zotero/storage/S8JLNLVD/image segmentation with AE.png:image/png;reparameterization trick.png:/Users/arthur/Documents/Zotero/storage/TZD9CENC/reparameterization trick.png:image/png;variational entoencoder.png:/Users/arthur/Documents/Zotero/storage/GPDVASQL/variational entoencoder.png:image/png}
+}
+
+@misc{noauthor_cs231n_2016,
+	title = {{CS}231n {Winter} 2016 ({Stanford} - {Karpathy} - {Deep} {Learning})},
+	url = {https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC},
+	year = {2016},
+	keywords = {deep learning, lecture, *****, code, example},
+	file = {L4 - backprop patterns.png:/Users/arthur/Documents/Zotero/storage/TXVBBRB6/L4 - backprop patterns.png:image/png}
+}
+
+@article{goh_why_2017,
+	title = {Why {Momentum} {Really} {Works}},
+	volume = {2},
+	issn = {2476-0757},
+	url = {http://distill.pub/2017/momentum},
+	doi = {10.23915/distill.00006},
+	number = {4},
+	urldate = {2018-12-18},
+	journal = {Distill},
+	author = {Goh, Gabriel},
+	month = apr,
+	year = {2017},
+	keywords = {deep learning, optimization, gradient descent}
+}
+
+@article{ruder_overview_2016,
+	title = {An overview of gradient descent optimization algorithms},
+	url = {http://arxiv.org/abs/1609.04747},
+	abstract = {Gradient descent optimization algorithms, while increasingly popular, are often used as black-box optimizers, as practical explanations of their strengths and weaknesses are hard to come by. This article aims to provide the reader with intuitions with regard to the behaviour of different algorithms that will allow her to put them to use. In the course of this overview, we look at different variants of gradient descent, summarize challenges, introduce the most common optimization algorithms, review architectures in a parallel and distributed setting, and investigate additional strategies for optimizing gradient descent.},
+	urldate = {2018-12-18},
+	journal = {arXiv:1609.04747 [cs]},
+	author = {Ruder, Sebastian},
+	month = sep,
+	year = {2016},
+	note = {arXiv: 1609.04747},
+	keywords = {Computer Science - Machine Learning, optimization, gradient descent},
+	file = {arXiv\:1609.04747 PDF:/Users/arthur/Documents/Zotero/storage/RVUY37NI/Ruder - 2016 - An overview of gradient descent optimization algor.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/GZYPSXBY/1609.html:text/html}
+}
+
+@article{vidal_mathematics_2017,
+	title = {Mathematics of {Deep} {Learning}},
+	url = {http://arxiv.org/abs/1712.04741},
+	abstract = {Recently there has been a dramatic increase in the performance of recognition systems due to the introduction of deep architectures for representation learning and classification. However, the mathematical reasons for this success remain elusive. This tutorial will review recent work that aims to provide a mathematical justification for several properties of deep networks, such as global optimality, geometric stability, and invariance of the learned representations.},
+	urldate = {2018-12-20},
+	journal = {arXiv:1712.04741 [cs]},
+	author = {Vidal, Rene and Bruna, Joan and Giryes, Raja and Soatto, Stefano},
+	month = dec,
+	year = {2017},
+	note = {arXiv: 1712.04741},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, deep learning, theoretical understanding, mathematics},
+	file = {arXiv\:1712.04741 PDF:/Users/arthur/Documents/Zotero/storage/F6QXUVTC/Vidal et al. - 2017 - Mathematics of Deep Learning.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/PQ3DZQFD/1712.html:text/html}
+}
+
+@misc{ai2_semantic_nodate,
+	title = {Semantic {Scholar}},
+	url = {https://www.semanticscholar.org},
+	abstract = {Cut through the clutter
+Find peer-reviewed research from the world's most trusted sources},
+	author = {AI2},
+	keywords = {bibliography, tool}
+}
+
+@article{achille_information_2018,
+	title = {Information {Dropout}: {Learning} {Optimal} {Representations} {Through} {Noisy} {Computation}},
+	volume = {40},
+	issn = {0162-8828, 2160-9292, 1939-3539},
+	shorttitle = {Information {Dropout}},
+	url = {https://ieeexplore.ieee.org/document/8253482/},
+	doi = {10.1109/TPAMI.2017.2784440},
+	number = {12},
+	urldate = {2018-12-20},
+	journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	author = {Achille, Alessandro and Soatto, Stefano},
+	month = dec,
+	year = {2018},
+	keywords = {deep learning, theoretical understanding},
+	pages = {2897--2905},
+	file = {Submitted Version:/Users/arthur/Documents/Zotero/storage/4G4PJ6I2/Achille and Soatto - 2018 - Information Dropout Learning Optimal Representati.pdf:application/pdf}
+}
+
+@inproceedings{achille_emergence_2018,
+	address = {San Diego, CA},
+	title = {Emergence of {Invariance} and {Disentanglement} in {Deep} {Representations}},
+	isbn = {978-1-72810-124-8},
+	url = {https://ieeexplore.ieee.org/document/8503149/},
+	doi = {10.1109/ITA.2018.8503149},
+	urldate = {2018-12-20},
+	booktitle = {2018 {Information} {Theory} and {Applications} {Workshop} ({ITA})},
+	publisher = {IEEE},
+	author = {Achille, Alessandro and Soatto, Stefano},
+	month = feb,
+	year = {2018},
+	keywords = {deep learning, theoretical understanding},
+	pages = {1--9},
+	file = {Submitted Version:/Users/arthur/Documents/Zotero/storage/HZHI8YQX/Achille and Soatto - 2018 - Emergence of Invariance and Disentanglement in Dee.pdf:application/pdf}
+}
+
+@article{fawzi_empirical_nodate,
+	title = {Empirical {Study} of the {Topology} and {Geometry} of {Deep} {Networks}},
+	abstract = {The goal of this paper is to analyze the geometric properties of deep neural network image classiﬁers in the input space. We speciﬁcally study the topology of classiﬁcation regions created by deep networks, as well as their associated decision boundary. Through a systematic empirical study, we show that state-of-the-art deep nets learn connected classiﬁcation regions, and that the decision boundary in the vicinity of datapoints is ﬂat along most directions. We further draw an essential connection between two seemingly unrelated properties of deep networks: their sensitivity to additive perturbations of the inputs, and the curvature of their decision boundary. The directions where the decision boundary is curved in fact characterize the directions to which the classiﬁer is the most vulnerable. We ﬁnally leverage a fundamental asymmetry in the curvature of the decision boundary of deep nets, and propose a method to discriminate between original images, and images perturbed with small adversarial examples. We show the effectiveness of this purely geometric approach for detecting small adversarial perturbations in images, and for recovering the labels of perturbed images.},
+	language = {en},
+	author = {Fawzi, Alhussein and Moosavi-Dezfooli, Seyed-Mohsen and Frossard, Pascal and Soatto, Stefano},
+	keywords = {deep learning, theoretical understanding, geometry},
+	pages = {9},
+	file = {Fawzi et al. - Empirical Study of the Topology and Geometry of De.pdf:/Users/arthur/Documents/Zotero/storage/Q4332KB8/Fawzi et al. - Empirical Study of the Topology and Geometry of De.pdf:application/pdf}
+}
+
+@inproceedings{chaudhari_stochastic_2018,
+	address = {San Diego, CA},
+	title = {Stochastic {Gradient} {Descent} {Performs} {Variational} {Inference}, {Converges} to {Limit} {Cycles} for {Deep} {Networks}},
+	isbn = {978-1-72810-124-8},
+	url = {https://ieeexplore.ieee.org/document/8503224/},
+	doi = {10.1109/ITA.2018.8503224},
+	urldate = {2018-12-20},
+	booktitle = {2018 {Information} {Theory} and {Applications} {Workshop} ({ITA})},
+	publisher = {IEEE},
+	author = {Chaudhari, Pratik and Soatto, Stefano},
+	month = feb,
+	year = {2018},
+	keywords = {deep learning, theoretical understanding, optimization},
+	pages = {1--10},
+	file = {Submitted Version:/Users/arthur/Documents/Zotero/storage/MNSCXXLT/Chaudhari and Soatto - 2018 - Stochastic Gradient Descent Performs Variational I.pdf:application/pdf}
+}
+
+@article{wang_numerical_2018,
+	title = {On the {Numerical} {Rank} of {Radial} {Basis} {Function} {Kernels} in {High} {Dimensions}},
+	volume = {39},
+	issn = {0895-4798, 1095-7162},
+	url = {https://epubs.siam.org/doi/10.1137/17M1135803},
+	doi = {10.1137/17M1135803},
+	language = {en},
+	number = {4},
+	urldate = {2018-12-22},
+	journal = {SIAM Journal on Matrix Analysis and Applications},
+	author = {Wang, Ruoxi and Li, Yingzhou and Darve, Eric},
+	month = jan,
+	year = {2018},
+	keywords = {theoretical understanding, radial basis functions},
+	pages = {1810--1835}
+}
+
+@article{perlmutter_geometric_2018,
+	title = {Geometric {Scattering} on {Manifolds}},
+	url = {http://arxiv.org/abs/1812.06968},
+	abstract = {We present a mathematical model for geometric deep learning based upon a scattering transform defined over manifolds, which generalizes the wavelet scattering transform of Mallat. This geometric scattering transform is (locally) invariant to isometry group actions, and we conjecture that it is stable to actions of the diffeomorphism group.},
+	urldate = {2018-12-22},
+	journal = {arXiv:1812.06968 [cs, math, stat]},
+	author = {Perlmutter, Michael and Wolf, Guy and Hirn, Matthew},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.06968},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, theoretical understanding, Mathematics - Functional Analysis, scattering transform},
+	file = {arXiv\:1812.06968 PDF:/Users/arthur/Documents/Zotero/storage/Z8YTFSYW/Perlmutter et al. - 2018 - Geometric Scattering on Manifolds.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/5CIJSD7P/1812.html:text/html}
+}
+
+@inproceedings{recoskie_learning_2018,
+	address = {Toronto, ON, Canada},
+	title = {Learning {Filters} for the 2D {Wavelet} {Transform}},
+	isbn = {978-1-5386-6481-0},
+	url = {https://ieeexplore.ieee.org/document/8575754/},
+	doi = {10.1109/CRV.2018.00036},
+	urldate = {2018-12-22},
+	booktitle = {2018 15th {Conference} on {Computer} and {Robot} {Vision} ({CRV})},
+	publisher = {IEEE},
+	author = {Recoskie, Daniel and Mann, Richard},
+	month = may,
+	year = {2018},
+	keywords = {deep learning, wavelet transform},
+	pages = {198--205}
+}
+
+@article{petzka_non-attracting_2018,
+	title = {Non-attracting {Regions} of {Local} {Minima} in {Deep} and {Wide} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1812.06486},
+	abstract = {Understanding the loss surface of neural networks is essential for the design of models with predictable performance and their success in applications. Experimental results suggest that sufficiently deep and wide neural networks are not negatively impacted by suboptimal local minima. Despite recent progress, the reason for this outcome is not fully understood. Could deep networks have very few, if at all, suboptimal local optima? or could all of them be equally good? We provide a construction to show that suboptimal local minima (i.e. non-global ones), even though degenerate, exist for fully connected neural networks with sigmoid activation functions. The local minima obtained by our proposed construction belong to a connected set of local solutions that can be escaped from via a non-increasing path on the loss curve. For extremely wide neural networks with two hidden layers, we prove that every suboptimal local minimum belongs to such a connected set. This provides a partial explanation for the successful application of deep neural networks. In addition, we also characterize under what conditions the same construction leads to saddle points instead of local minima for deep neural networks.},
+	urldate = {2018-12-22},
+	journal = {arXiv:1812.06486 [cs, stat]},
+	author = {Petzka, Henning and Sminchisescu, Cristian},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.06486},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, deep learning, theoretical understanding, optimization},
+	file = {arXiv\:1812.06486 PDF:/Users/arthur/Documents/Zotero/storage/FBLUQEZ4/Petzka and Sminchisescu - 2018 - Non-attracting Regions of Local Minima in Deep and.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/PJMBVMG8/1812.html:text/html}
+}
+
+@article{rubenstein_empirical_2018,
+	title = {An {Empirical} {Study} of {Generative} {Models} with {Encoders}},
+	url = {http://arxiv.org/abs/1812.07909},
+	abstract = {Generative adversarial networks (GANs) are capable of producing high quality image samples. However, unlike variational autoencoders (VAEs), GANs lack encoders that provide the inverse mapping for the generators, i.e., encode images back to the latent space. In this work, we consider adversarially learned generative models that also have encoders. We evaluate models based on their ability to produce high quality samples and reconstructions of real images. Our main contributions are twofold: First, we find that the baseline Bidirectional GAN (BiGAN) can be improved upon with the addition of an autoencoder loss, at the expense of an extra hyper-parameter to tune. Second, we show that comparable performance to BiGAN can be obtained by simply training an encoder to invert the generator of a normal GAN.},
+	urldate = {2018-12-25},
+	journal = {arXiv:1812.07909 [cs, stat]},
+	author = {Rubenstein, Paul K. and Li, Yunpeng and Roblek, Dominik},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.07909},
+	keywords = {Computer Science - Machine Learning, Statistics - Machine Learning, Computer Science - Artificial Intelligence, deep learning, GAN},
+	file = {arXiv\:1812.07909 PDF:/Users/arthur/Documents/Zotero/storage/ENHTJSC4/Rubenstein et al. - 2018 - An Empirical Study of Generative Models with Encod.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/A8CHCAZH/1812.html:text/html}
+}
+
+@article{zhang_explanatory_2018,
+	title = {Explanatory {Graphs} for {CNNs}},
+	url = {http://arxiv.org/abs/1812.07997},
+	abstract = {This paper introduces a graphical model, namely an explanatory graph, which reveals the knowledge hierarchy hidden inside conv-layers of a pre-trained CNN. Each filter in a conv-layer of a CNN for object classification usually represents a mixture of object parts. We develop a simple yet effective method to disentangle object-part pattern components from each filter. We construct an explanatory graph to organize the mined part patterns, where a node represents a part pattern, and each edge encodes co-activation relationships and spatial relationships between patterns. More crucially, given a pre-trained CNN, the explanatory graph is learned without a need of annotating object parts. Experiments show that each graph node consistently represented the same object part through different images, which boosted the transferability of CNN features. We transferred part patterns in the explanatory graph to the task of part localization, and our method significantly outperformed other approaches.},
+	urldate = {2018-12-25},
+	journal = {arXiv:1812.07997 [cs]},
+	author = {Zhang, Quanshi and Wang, Xin and Cao, Ruiming and Wu, Ying Nian and Shi, Feng and Zhu, Song-Chun},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.07997},
+	keywords = {Computer Science - Machine Learning, Computer Science - Computer Vision and Pattern Recognition, deep learning},
+	file = {arXiv\:1812.07997 PDF:/Users/arthur/Documents/Zotero/storage/MD34TQ2Y/Zhang et al. - 2018 - Explanatory Graphs for CNNs.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/K38WX7ZN/1812.html:text/html}
+}
+
+@inproceedings{noauthor_conference_nodate,
+	title = {Conference on {Learning} {Theory} ({COLT})},
+	url = {https://dblp.uni-trier.de/db/conf/colt/},
+	keywords = {conference, machine learning, theoretical understanding}
+}
+
+@article{du_gradient_2018,
+	title = {Gradient {Descent} {Finds} {Global} {Minima} of {Deep} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1811.03804},
+	abstract = {Gradient descent finds a global minimum in training deep neural networks despite the objective function being non-convex. The current paper proves gradient descent achieves zero training loss in polynomial time for a deep over-parameterized neural network with residual connections (ResNet). Our analysis relies on the particular structure of the Gram matrix induced by the neural network architecture. This structure allows us to show the Gram matrix is stable throughout the training process and this stability implies the global optimality of the gradient descent algorithm. We further extend our analysis to deep residual convolutional neural networks and obtain a similar convergence result.},
+	urldate = {2018-12-27},
+	journal = {arXiv:1811.03804 [cs, math, stat]},
+	author = {Du, Simon S. and Lee, Jason D. and Li, Haochuan and Wang, Liwei and Zhai, Xiyu},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.03804},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, deep learning, Mathematics - Optimization and Control, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1811.03804 PDF:/Users/arthur/Documents/Zotero/storage/MKGPJE4X/Du et al. - 2018 - Gradient Descent Finds Global Minima of Deep Neura.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/XTSMJ3UA/1811.html:text/html}
+}
+
+@article{allen-zhu_convergence_2018,
+	title = {A {Convergence} {Theory} for {Deep} {Learning} via {Over}-{Parameterization}},
+	url = {http://arxiv.org/abs/1811.03962},
+	abstract = {Deep neural networks (DNNs) have demonstrated dominating performance in many fields; since AlexNet, the neural networks used in practice are going wider and deeper. On the theoretical side, a long line of works have been focusing on why we can train neural networks when there is only one hidden layer. The theory of multi-layer networks remains somewhat unsettled. In this work, we prove why simple algorithms such as stochastic gradient descent (SGD) can find \${\textbackslash}textit\{global minima\}\$ on the training objective of DNNs. We only make two assumptions: the inputs do not degenerate and the network is over-parameterized. The latter means the number of hidden neurons is sufficiently large: \${\textbackslash}textit\{polynomial\}\$ in \$L\$, the number of DNN layers and in \$n\$, the number of training samples. As concrete examples, on the training set and starting from randomly initialized weights, we show that SGD attains 100\% accuracy in classification tasks, or minimizes regression loss in linear convergence speed \${\textbackslash}varepsilon {\textbackslash}propto e{\textasciicircum}\{-{\textbackslash}Omega(T)\}\$, with a number of iterations that only scales polynomial in \$n\$ and \$L\$. Our theory applies to the widely-used but non-smooth ReLU activation, and to any smooth and possibly non-convex loss functions. In terms of network architectures, our theory at least applies to fully-connected neural networks, convolutional neural networks (CNN), and residual neural networks (ResNet).},
+	urldate = {2018-12-27},
+	journal = {arXiv:1811.03962 [cs, math, stat]},
+	author = {Allen-Zhu, Zeyuan and Li, Yuanzhi and Song, Zhao},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.03962},
+	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, Mathematics - Optimization and Control, over parame, over-parameterization, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1811.03962 PDF:/Users/arthur/Documents/Zotero/storage/JFXCGWV7/Allen-Zhu et al. - 2018 - A Convergence Theory for Deep Learning via Over-Pa.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/FWY2YDD7/1811.html:text/html}
+}
+
+@article{zou_stochastic_2018-1,
+	title = {Stochastic {Gradient} {Descent} {Optimizes} {Over}-parameterized {Deep} {ReLU} {Networks}},
+	url = {http://arxiv.org/abs/1811.08888},
+	abstract = {We study the problem of training deep neural networks with Rectified Linear Unit (ReLU) activation function using gradient descent and stochastic gradient descent. In particular, we study the binary classification problem and show that for a broad family of loss functions, with proper random weight initialization, both gradient descent and stochastic gradient descent can find the global minima of the training loss for an over-parameterized deep ReLU network, under mild assumption on the training data. The key idea of our proof is that Gaussian random initialization followed by (stochastic) gradient descent produces a sequence of iterates that stay inside a small perturbation region centering around the initial weights, in which the empirical loss function of deep ReLU networks enjoys nice local curvature properties that ensure the global convergence of (stochastic) gradient descent. Our theoretical results shed light on understanding the optimization for deep learning, and pave the way for studying the optimization dynamics of training modern deep neural networks.},
+	urldate = {2018-12-27},
+	journal = {arXiv:1811.08888 [cs, math, stat]},
+	author = {Zou, Difan and Cao, Yuan and Zhou, Dongruo and Gu, Quanquan},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.08888},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Mathematics - Optimization and Control, Statistics - Machine Learning},
+	file = {arXiv\:1811.08888 PDF:/Users/arthur/Documents/Zotero/storage/BGTM7VPH/Zou et al. - 2018 - Stochastic Gradient Descent Optimizes Over-paramet.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/GDYENNYI/1811.html:text/html}
+}
+
+@article{allen-zhu_convergence_2018-1,
+	title = {On the {Convergence} {Rate} of {Training} {Recurrent} {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1810.12065},
+	abstract = {Despite the huge success of deep learning, our understanding to how the non-convex neural networks are trained remains rather limited. Most of existing theoretical works only tackle neural networks with one hidden layer, and little is known for multi-layer neural networks. Recurrent neural networks (RNNs) are special multi-layer networks extensively used in natural language processing applications. They are particularly hard to analyze, comparing to feedforward networks, because the weight parameters are reused across the entire time horizon. We provide arguably the first theoretical understanding to the convergence speed of training RNNs (when activation functions are present). Specifically, when the weights are randomly initialized, and when the number of neurons is sufficiently large ---meaning polynomial in the training data size and the time horizon--- we show that gradient descent and stochastic gradient descent both minimize the regression loss in a linear convergence rate, that is, \${\textbackslash}varepsilon {\textbackslash}propto e{\textasciicircum}\{-{\textbackslash}Omega(T)\}\$.},
+	urldate = {2018-12-27},
+	journal = {arXiv:1810.12065 [cs, math, stat]},
+	author = {Allen-Zhu, Zeyuan and Li, Yuanzhi and Song, Zhao},
+	month = oct,
+	year = {2018},
+	note = {arXiv: 1810.12065},
+	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, Mathematics - Optimization and Control, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1810.12065 PDF:/Users/arthur/Documents/Zotero/storage/Z5LLE5HS/Allen-Zhu et al. - 2018 - On the Convergence Rate of Training Recurrent Neur.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/5ZCBP66S/1810.html:text/html}
+}
+
+@article{allen-zhu_learning_2018,
+	title = {Learning and {Generalization} in {Overparameterized} {Neural} {Networks}, {Going} {Beyond} {Two} {Layers}},
+	url = {http://arxiv.org/abs/1811.04918},
+	abstract = {Neural networks have great success in many machine learning applications, but the fundamental learning theory behind them remains largely unsolved. Learning neural networks is NP-hard, but in practice, simple algorithms like stochastic gradient descent (SGD) often produce good solutions. Moreover, it is observed that overparameterization --- designing networks whose number of parameters is larger than statistically needed to perfectly fit the data --- improves both optimization and generalization, appearing to contradict traditional learning theory. In this work, we extend the theoretical understanding of two and three-layer neural networks in the overparameterized regime. We prove that, using overparameterized neural networks, one can (improperly) learn some notable hypothesis classes, including two and three-layer neural networks with fewer parameters. Moreover, the learning process can be simply done by SGD or its variants in polynomial time using polynomially many samples. We also show that for a fixed sample size, the generalization error of the solution found by some SGD variant can be made almost independent of the number of parameters in the overparameterized network.},
+	urldate = {2018-12-27},
+	journal = {arXiv:1811.04918 [cs, math, stat]},
+	author = {Allen-Zhu, Zeyuan and Li, Yuanzhi and Liang, Yingyu},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.04918},
+	keywords = {Computer Science - Data Structures and Algorithms, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deep learning, Mathematics - Optimization and Control, over-parameterization, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1811.04918 PDF:/Users/arthur/Documents/Zotero/storage/99SDGGDG/Allen-Zhu et al. - 2018 - Learning and Generalization in Overparameterized N.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/WEJM5YID/1811.html:text/html}
+}
+
+@article{anil_sorting_2018,
+	title = {Sorting out {Lipschitz} function approximation},
+	url = {http://arxiv.org/abs/1811.05381},
+	abstract = {Training neural networks subject to a Lipschitz constraint is useful for generalization bounds, provable adversarial robustness, interpretable gradients, and Wasserstein distance estimation. By the composition property of Lipschitz functions, it suffices to ensure that each individual affine transformation or nonlinear activation function is 1-Lipschitz. The challenge is to do this while maintaining the expressive power. We identify a necessary property for such an architecture: each of the layers must preserve the gradient norm during backpropagation. Based on this, we propose to combine a gradient norm preserving activation function, GroupSort, with norm-constrained weight matrices. We show that norm-constrained GroupSort architectures are universal Lipschitz function approximators. Empirically, we show that norm-constrained GroupSort networks achieve tighter estimates of Wasserstein distance than their ReLU counterparts and can achieve provable adversarial robustness guarantees with little cost to accuracy.},
+	urldate = {2018-12-27},
+	journal = {arXiv:1811.05381 [cs, stat]},
+	author = {Anil, Cem and Lucas, James and Grosse, Roger},
+	month = nov,
+	year = {2018},
+	note = {arXiv: 1811.05381},
+	keywords = {Computer Science - Machine Learning, deep learning, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1811.05381 PDF:/Users/arthur/Documents/Zotero/storage/HKYI3CNG/Anil et al. - 2018 - Sorting out Lipschitz function approximation.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/EMA2SAL2/1811.html:text/html}
+}
+
+@article{hoshen_non-adversarial_2018,
+	title = {Non-{Adversarial} {Image} {Synthesis} with {Generative} {Latent} {Nearest} {Neighbors}},
+	url = {http://arxiv.org/abs/1812.08985},
+	abstract = {Unconditional image generation has recently been dominated by generative adversarial networks (GANs). GAN methods train a generator which regresses images from random noise vectors, as well as a discriminator that attempts to differentiate between the generated images and a training set of real images. GANs have shown amazing results at generating realistic looking images. Despite their success, GANs suffer from critical drawbacks including: unstable training and mode-dropping. The weaknesses in GANs have motivated research into alternatives including: variational auto-encoders (VAEs), latent embedding learning methods (e.g. GLO) and nearest-neighbor based implicit maximum likelihood estimation (IMLE). Unfortunately at the moment, GANs still significantly outperform the alternative methods for image generation. In this work, we present a novel method - Generative Latent Nearest Neighbors (GLANN) - for training generative models without adversarial training. GLANN combines the strengths of IMLE and GLO in a way that overcomes the main drawbacks of each method. Consequently, GLANN generates images that are far better than GLO and IMLE. Our method does not suffer from mode collapse which plagues GAN training and is much more stable. Qualitative results show that GLANN outperforms a baseline consisting of 800 GANs and VAEs on commonly used datasets. Our models are also shown to be effective for training truly non-adversarial unsupervised image translation.},
+	urldate = {2018-12-29},
+	journal = {arXiv:1812.08985 [cs, stat]},
+	author = {Hoshen, Yedid and Malik, Jitendra},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.08985},
+	keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Machine Learning, deep learning, GAN, Statistics - Machine Learning, synthesis},
+	file = {arXiv\:1812.08985 PDF:/Users/arthur/Documents/Zotero/storage/BIXBHU3H/Hoshen and Malik - 2018 - Non-Adversarial Image Synthesis with Generative La.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/JDBWFBF6/1812.html:text/html}
+}
+
+@article{de_palma_deep_2018,
+	title = {Deep neural networks are biased towards simple functions},
+	url = {http://arxiv.org/abs/1812.10156},
+	abstract = {We prove that the binary classifiers of bit strings generated by random wide deep neural networks are biased towards simple functions. The simplicity is captured by the following two properties. For any given input bit string, the average Hamming distance of the closest input bit string with a different classification is at least \${\textbackslash}sqrt\{n{\textbackslash}left/{\textbackslash}left(2{\textbackslash}pi{\textbackslash}ln n{\textbackslash}right){\textbackslash}right.\}\$, where \$n\$ is the length of the string. Moreover, if the bits of the initial string are flipped randomly, the average number of flips required to change the classification grows linearly with \$n\$. On the contrary, for a uniformly random binary classifier, the average Hamming distance of the closest input bit string with a different classification is one, and the average number of random flips required to change the classification is two. These results are confirmed by numerical experiments on deep neural networks with two hidden layers, and settle the conjecture stating that random deep neural networks are biased towards simple functions. The conjecture that random deep neural networks are biased towards simple functions was proposed and numerically explored in [Valle P{\textbackslash}'erez et al., arXiv:1805.08522] to explain the unreasonably good generalization properties of deep learning algorithms. By providing a precise characterization of the form of this bias towards simplicity, our results open the way to a rigorous proof of the generalization properties of deep learning algorithms in real-world scenarios.},
+	urldate = {2019-01-01},
+	journal = {arXiv:1812.10156 [cond-mat, physics:math-ph, physics:quant-ph, stat]},
+	author = {De Palma, Giacomo and Kiani, Bobak Toussi and Lloyd, Seth},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.10156},
+	keywords = {Computer Science - Machine Learning, Condensed Matter - Disordered Systems and Neural Networks, deep learning, Mathematical Physics, Quantum Physics, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1812.10156 PDF:/Users/arthur/Documents/Zotero/storage/YC74LYVG/De Palma et al. - 2018 - Deep neural networks are biased towards simple fun.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/FT5FFJLE/1812.html:text/html}
+}
+
+@article{ma_diving_2017,
+	title = {Diving into the shallows: a computational perspective on large-scale shallow learning},
+	shorttitle = {Diving into the shallows},
+	url = {http://arxiv.org/abs/1703.10622},
+	abstract = {In this paper we first identify a basic limitation in gradient descent-based optimization methods when used in conjunctions with smooth kernels. An analysis based on the spectral properties of the kernel demonstrates that only a vanishingly small portion of the function space is reachable after a polynomial number of gradient descent iterations. This lack of approximating power drastically limits gradient descent for a fixed computational budget leading to serious over-regularization/underfitting. The issue is purely algorithmic, persisting even in the limit of infinite data. To address this shortcoming in practice, we introduce EigenPro iteration, based on a preconditioning scheme using a small number of approximately computed eigenvectors. It can also be viewed as learning a new kernel optimized for gradient descent. It turns out that injecting this small (computationally inexpensive and SGD-compatible) amount of approximate second-order information leads to major improvements in convergence. For large data, this translates into significant performance boost over the standard kernel methods. In particular, we are able to consistently match or improve the state-of-the-art results recently reported in the literature with a small fraction of their computational budget. Finally, we feel that these results show a need for a broader computational perspective on modern large-scale learning to complement more traditional statistical and convergence analyses. In particular, many phenomena of large-scale high-dimensional inference are best understood in terms of optimization on infinite dimensional Hilbert spaces, where standard algorithms can sometimes have properties at odds with finite-dimensional intuition. A systematic analysis concentrating on the approximation power of such algorithms within a budget of computation may lead to progress both in theory and practice.},
+	urldate = {2019-01-03},
+	journal = {arXiv:1703.10622 [cs, stat]},
+	author = {Ma, Siyuan and Belkin, Mikhail},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.10622},
+	keywords = {Computer Science - Machine Learning, kernel learning, optimization, Statistics - Machine Learning},
+	file = {arXiv\:1703.10622 PDF:/Users/arthur/Documents/Zotero/storage/E2J3RRHQ/Ma and Belkin - 2017 - Diving into the shallows a computational perspect.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/ZRUFGMFN/1703.html:text/html}
+}
+
+@misc{kunin_seeing_nodate,
+	title = {Seeing {Theory}},
+	url = {https://seeing-theory.brown.edu/index.html#firstPage},
+	abstract = {A visual introduction to probability and statistics.},
+	author = {Kunin, Daniel},
+	keywords = {example, lecture, probabilities, statistics}
+}
+
+@article{tasfi_dynamic_2018,
+	title = {Dynamic {Planning} {Networks}},
+	url = {http://arxiv.org/abs/1812.11240},
+	abstract = {We introduce Dynamic Planning Networks (DPN), a novel architecture for deep reinforcement learning, that combines model-based and model-free aspects for online planning. Our architecture learns to dynamically construct plans using a learned state-transition model by selecting and traversing between simulated states and actions to maximize valuable information before acting. In contrast to model-free methods, model-based planning lets the agent efficiently test action hypotheses without performing costly trial-and-error in the environment. DPN learns to efficiently form plans by expanding a single action-conditional state transition at a time instead of exhaustively evaluating each action, reducing the required number of state-transitions during planning by up to 96\%. We observe various emergent planning patterns used to solve environments, including classical search methods such as breadth-first and depth-first search. Learning To Plan shows improved data efficiency, performance, and generalization to new and unseen domains in comparison to several baselines.},
+	urldate = {2019-01-03},
+	journal = {arXiv:1812.11240 [cs, stat]},
+	author = {Tasfi, Norman and Capretz, Miriam},
+	month = dec,
+	year = {2018},
+	note = {arXiv: 1812.11240},
+	keywords = {Computer Science - Artificial Intelligence, Computer Science - Machine Learning, Computer Science - Neural and Evolutionary Computing, deepRL, planning, Statistics - Machine Learning},
+	file = {arXiv\:1812.11240 PDF:/Users/arthur/Documents/Zotero/storage/UC9I5VQE/Tasfi and Capretz - 2018 - Dynamic Planning Networks.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/CN5VWFNM/1812.html:text/html}
+}
+
+@article{neyshabur_pac-bayesian_2017,
+	title = {A {PAC}-{Bayesian} {Approach} to {Spectrally}-{Normalized} {Margin} {Bounds} for {Neural} {Networks}},
+	url = {http://arxiv.org/abs/1707.09564},
+	abstract = {We present a generalization bound for feedforward neural networks in terms of the product of the spectral norm of the layers and the Frobenius norm of the weights. The generalization bound is derived using a PAC-Bayes analysis.},
+	urldate = {2019-01-04},
+	journal = {arXiv:1707.09564 [cs]},
+	author = {Neyshabur, Behnam and Bhojanapalli, Srinadh and Srebro, Nathan},
+	month = jul,
+	year = {2017},
+	note = {arXiv: 1707.09564},
+	keywords = {Computer Science - Machine Learning, deep learning, theoretical understanding},
+	file = {arXiv\:1707.09564 PDF:/Users/arthur/Documents/Zotero/storage/PGK66CKN/Neyshabur et al. - 2017 - A PAC-Bayesian Approach to Spectrally-Normalized M.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/FY4HA8F9/1707.html:text/html}
+}
+
+@article{dziugaite_computing_2017,
+	title = {Computing {Nonvacuous} {Generalization} {Bounds} for {Deep} ({Stochastic}) {Neural} {Networks} with {Many} {More} {Parameters} than {Training} {Data}},
+	url = {http://arxiv.org/abs/1703.11008},
+	abstract = {One of the defining properties of deep learning is that models are chosen to have many more parameters than available training data. In light of this capacity for overfitting, it is remarkable that simple algorithms like SGD reliably return solutions with low test error. One roadblock to explaining these phenomena in terms of implicit regularization, structural properties of the solution, and/or easiness of the data is that many learning bounds are quantitatively vacuous when applied to networks learned by SGD in this "deep learning" regime. Logically, in order to explain generalization, we need nonvacuous bounds. We return to an idea by Langford and Caruana (2001), who used PAC-Bayes bounds to compute nonvacuous numerical bounds on generalization error for stochastic two-layer two-hidden-unit neural networks via a sensitivity analysis. By optimizing the PAC-Bayes bound directly, we are able to extend their approach and obtain nonvacuous generalization bounds for deep stochastic neural network classifiers with millions of parameters trained on only tens of thousands of examples. We connect our findings to recent and old work on flat minima and MDL-based explanations of generalization.},
+	urldate = {2019-01-04},
+	journal = {arXiv:1703.11008 [cs]},
+	author = {Dziugaite, Gintare Karolina and Roy, Daniel M.},
+	month = mar,
+	year = {2017},
+	note = {arXiv: 1703.11008},
+	keywords = {Computer Science - Machine Learning, deep learning, theoretical understanding},
+	file = {arXiv\:1703.11008 PDF:/Users/arthur/Documents/Zotero/storage/PALRLBEE/Dziugaite and Roy - 2017 - Computing Nonvacuous Generalization Bounds for Dee.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/23QD6YJN/1703.html:text/html}
+}
+
+@article{balestriero_mad_2018,
+	title = {Mad {Max}: {Affine} {Spline} {Insights} into {Deep} {Learning}},
+	shorttitle = {Mad {Max}},
+	url = {http://arxiv.org/abs/1805.06576},
+	abstract = {We build a rigorous bridge between deep networks (DNs) and approximation theory via spline functions and operators. Our key result is that a large class of DNs can be written as a composition of max-affine spline operators (MASOs), which provide a powerful portal through which to view and analyze their inner workings. For instance, conditioned on the input signal, the output of a MASO DN can be written as a simple affine transformation of the input. This implies that a DN constructs a set of signal-dependent, class-specific templates against which the signal is compared via a simple inner product; we explore the links to the classical theory of optimal classification via matched filters and the effects of data memorization. Going further, we propose a simple penalty term that can be added to the cost function of any DN learning algorithm to force the templates to be orthogonal with each other; this leads to significantly improved classification performance and reduced overfitting with no change to the DN architecture. The spline partition of the input signal space that is implicitly induced by a MASO directly links DNs to the theory of vector quantization (VQ) and \$K\$-means clustering, which opens up new geometric avenue to study how DNs organize signals in a hierarchical fashion. To validate the utility of the VQ interpretation, we develop and validate a new distance metric for signals and images that quantifies the difference between their VQ encodings. (This paper is a significantly expanded version of A Spline Theory of Deep Learning from ICML 2018.)},
+	urldate = {2019-01-04},
+	journal = {arXiv:1805.06576 [cs, stat]},
+	author = {Balestriero, Randall and Baraniuk, Richard},
+	month = may,
+	year = {2018},
+	note = {arXiv: 1805.06576},
+	keywords = {Computer Science - Machine Learning, deep learning, spline, Statistics - Machine Learning, theoretical understanding},
+	file = {arXiv\:1805.06576 PDF:/Users/arthur/Documents/Zotero/storage/HDJ927PY/Balestriero and Baraniuk - 2018 - Mad Max Affine Spline Insights into Deep Learning.pdf:application/pdf;arXiv.org Snapshot:/Users/arthur/Documents/Zotero/storage/DD9FEHJK/1805.html:text/html}
+}
